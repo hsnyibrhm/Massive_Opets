@@ -15,16 +15,15 @@
     </integer-array>
 
     <string-array name="dataD_name">
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
-        <item> </item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
+        <item>diskon1</item>
     </string-array>
 </resources>
