@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         showRecyclerList()
     }
     private fun showRecyclerList() {
-        rvDiskon.layoutManager = LinearLayoutManager(this)
+        rvDiskon.layoutManager = LinearLayoutManager(this,  LinearLayoutManager.HORIZONTAL, false)
         val listDiskonAdapter = ListDiskonAdapter(list)
         rvDiskon.adapter = listDiskonAdapter
     }

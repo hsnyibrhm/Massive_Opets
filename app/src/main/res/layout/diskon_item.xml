@@ -6,7 +6,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_marginTop="8dp"
     android:id="@+id/diskon_item"
-    android:layout_marginHorizontal="8dp"
+    android:layout_marginHorizontal="3dp"
     android:backgroundTint="@color/white"
     android:clickable="true"
     android:focusable="true"
@@ -14,13 +14,13 @@
     app:strokeWidth="0dp"
     app:strokeColor="#E0E0E0"
     android:layout_height="wrap_content"
-    android:layout_width="168dp"
+    android:layout_width="150dp"
     android:contentDescription="foto diskon">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="9dp"
+        android:layout_margin="0dp"
         android:backgroundTint="@color/white">
 
        <com.google.android.material.card.MaterialCardView
