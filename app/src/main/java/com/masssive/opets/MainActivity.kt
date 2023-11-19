@@ -4,8 +4,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.opets.ListDiskonAdapter
-import com.example.opets.diskon
+import com.masssive.opets.adapter.ListDiskonAdapter
+import com.masssive.opets.model.diskon
 
 class MainActivity : AppCompatActivity() {
     private lateinit var rvDiskon: RecyclerView

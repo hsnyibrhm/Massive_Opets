@@ -1,4 +1,4 @@
-package com.example.opets
+package com.masssive.opets.model
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize

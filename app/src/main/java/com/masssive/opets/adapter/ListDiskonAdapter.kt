@@ -1,4 +1,4 @@
-package com.example.opets
+package com.masssive.opets.adapter
 
 import android.view.LayoutInflater
 import android.view.View
@@ -6,6 +6,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.masssive.opets.R
+import com.masssive.opets.model.diskon
 
 class ListDiskonAdapter(private val listDiskon: ArrayList<diskon>) : RecyclerView.Adapter<ListDiskonAdapter.ListViewHHolder>() {
 
