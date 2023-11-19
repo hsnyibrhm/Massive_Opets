@@ -2,40 +2,40 @@ package com.masssive.opets
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
-import com.masssive.opets.adapter.ListDiskonAdapter
-import com.masssive.opets.model.diskon
+import androidx.fragment.app.Fragment
+import com.masssive.opets.booking.BookingFragment
+import com.masssive.opets.chat.ChatFragment
+import com.masssive.opets.databinding.ActivityMainBinding
+import com.masssive.opets.profile.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
-    private lateinit var rvDiskon: RecyclerView
-    private val list =ArrayList<diskon>()
-
+    private lateinit var binding : ActivityMainBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        binding = ActivityMainBinding.inflate(layoutInflater)
+        setContentView(binding.root)
+        replaceFragment(HomeFragment())
 
-        rvDiskon = findViewById(R.id.rv_dis)
-        rvDiskon.setHasFixedSize(true)
+        binding.bottomNavigationView.setOnItemSelectedListener {
+            when(it.itemId){
+                R.id.home -> replaceFragment(HomeFragment())
+                R.id.pet -> replaceFragment(BookingFragment())
+                R.id.chat -> replaceFragment(ChatFragment())
+                R.id.user -> replaceFragment(ProfileFragment())
 
-        list.addAll(getListiskon())
-        showRecyclerList()
-    }
-    private fun showRecyclerList() {
-        rvDiskon.layoutManager = LinearLayoutManager(this,  LinearLayoutManager.HORIZONTAL, false)
-        val listDiskonAdapter = ListDiskonAdapter(list)
-        rvDiskon.adapter = listDiskonAdapter
-    }
+                else -> {
 
-    private fun getListiskon(): ArrayList<diskon> {
-        val dataPhotoD = resources.obtainTypedArray(R.array.Dis_foto)
-        val dataNameD = resources.getStringArray(R.array.dataD_name)
-        val listDiskon = ArrayList<diskon>()
-        for (i in dataNameD.indices){
-            val diskon = diskon(dataPhotoD.getResourceId(i, -1), dataNameD[i])
-            listDiskon.add(diskon)
-
+                }
+            }
+            true
         }
-        return listDiskon
     }
+
+    private fun replaceFragment(fragment: Fragment){
+        val fragmentManager = supportFragmentManager
+        val fragmentTransition = fragmentManager.beginTransaction()
+        fragmentTransition.replace(R.id.frame_layout, fragment)
+        fragmentTransition.commit()
+    }
+
 }
