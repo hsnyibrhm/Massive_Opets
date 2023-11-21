@@ -10,4 +10,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener{
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
     }
+
+    override fun onClick(v: View?) {
+        TODO("Not yet implemented")
+    }
 }
