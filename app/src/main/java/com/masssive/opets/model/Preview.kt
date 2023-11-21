@@ -7,5 +7,6 @@ import kotlinx.parcelize.Parcelize
 data class Preview(
     val nameP: String,
     val description: String,
+    val tanggal: String,
     val photoP: Int
 ):Parcelable
