@@ -60,6 +60,7 @@ class HomeFragment : Fragment() {
         rvPriview.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         val listPriviewAdapter = ListPriviewAdapter(listt)
         rvPriview.adapter = listPriviewAdapter
+
         rvDiskon.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         val listDiskonAdapter = ListDiskonAdapter(list)
         rvDiskon.adapter = listDiskonAdapter
