@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -15,7 +16,7 @@
         android:background="@drawable/opet_logo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.1" />
@@ -38,10 +39,9 @@
     <FrameLayout
         android:id="@+id/frameLayout"
         android:layout_width="330dp"
-        android:layout_height="279dp"
+        android:layout_height="300dp"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginHorizontal="25dp"
         android:background="@drawable/card"
@@ -62,19 +62,19 @@
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.049"
+                app:layout_constraintHorizontal_bias="0.05"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="0.09" />
 
             <EditText
                 android:id="@+id/etEmail"
-                android:layout_width="314dp"
-                android:layout_height="40dp"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
                 android:layout_marginHorizontal="15dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="4dp"
                 android:fontFamily="@font/poppinsmedium"
-                android:hint="Masukan alamat email"
+                android:hint="Masukkan alamat email"
                 android:inputType="textEmailAddress"
                 android:paddingStart="30dp"
                 android:textColor="@color/black"
@@ -84,12 +84,12 @@
 
             <EditText
                 android:id="@+id/etPassword"
-                android:layout_width="314dp"
-                android:layout_height="40dp"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
                 android:layout_marginHorizontal="15dp"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="4dp"
                 android:fontFamily="@font/poppinsmedium"
-                android:hint="Password milikmu"
+                android:hint="Password kamu"
                 android:inputType="textPassword"
                 android:paddingStart="30dp"
                 android:textColor="@color/black"
@@ -97,27 +97,22 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/etEmail" />
 
-
             <ImageView
                 android:id="@+id/ivShowPassword"
                 android:layout_width="24dp"
                 android:layout_height="24dp"
                 android:layout_gravity="end"
-                android:layout_marginTop="12dp"
                 android:layout_marginEnd="24dp"
-                android:layout_marginBottom="8dp"
-                android:src="@drawable/icon_eye_off"
-                app:layout_constraintBottom_toBottomOf="parent"
+                android:layout_marginTop="12dp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.417" />
+                app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/tvforgot"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="184dp"
-                android:layout_marginTop="12dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Forgot Password?"
                 android:textColor="@color/black"
@@ -126,15 +121,16 @@
 
             <Button
                 android:id="@+id/btnLogin"
-                android:layout_width="150dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="16dp"
+                android:layout_width="303dp"
+                android:layout_height="58dp"
+                android:layout_marginTop="4dp"
                 android:backgroundTint="@color/oren"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Continue"
                 android:textAllCaps="false"
                 android:textColor="@color/black"
                 app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.518"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tvforgot" />
 
@@ -145,7 +141,7 @@
                 android:layout_marginStart="64dp"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/poppinsmedium"
-                android:text="Don’ have an account?"
+                android:text="Don’t have an account?"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
@@ -154,19 +150,14 @@
                 android:id="@+id/tvsignup"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="228dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="12dp"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="SignUp"
+                android:text="Sign Up"
                 android:textColor="@color/black"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_="@+id/btnLogin"
-                tools:layout_editor_absoluteY="249dp" />
-
+                app:layout_constraintStart_toEndOf="@+id/tvdont"
+                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
-
-
     </FrameLayout>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
