@@ -69,11 +69,7 @@
             android:id="@+id/iv_vit1"
             android:layout_width="96dp"
             android:layout_height="96dp"
-<<<<<<< HEAD
-            android:layout_marginStart="64dp"
-=======
             android:layout_marginStart="85dp"
->>>>>>> d3bb2be468d9b32205f1db233369e48e5a541015
             android:layout_marginTop="40dp"
             android:src="@drawable/penitipan1"
             app:layout_constraintStart_toStartOf="parent"
@@ -83,7 +79,7 @@
             android:id="@+id/tv_vit2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="48dp"
+            android:layout_marginStart="72dp"
             android:layout_marginTop="8dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Penitipan Hewan"
@@ -105,41 +101,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-<<<<<<< HEAD
-            android:layout_marginEnd="80dp"
-=======
-            android:layout_marginEnd="95dp"
+            android:layout_marginEnd="83dp"
             android:text="Grooming"
->>>>>>> d3bb2be468d9b32205f1db233369e48e5a541015
             android:fontFamily="@font/poppinsmedium"
-            android:text="Grooming"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_vit2" />
 
-<<<<<<< HEAD
-=======
-        <ImageView
-            android:id="@+id/iv_vit2"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="85dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rv_dis"
-            android:src="@drawable/kucing2"/>
 
-        <TextView
-            android:id="@+id/tv_vit2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Penitipan Hewan"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_vit1" />
 
->>>>>>> d3bb2be468d9b32205f1db233369e48e5a541015
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="0dp"
