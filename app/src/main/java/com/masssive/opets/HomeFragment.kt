@@ -10,7 +10,8 @@ import androidx.recyclerview.widget.RecyclerView
 import com.masssive.opets.adapter.ListDiskonAdapter
 import com.masssive.opets.model.diskon
 
-class HomeFragment : Fragment() {
+class
+HomeFragment : Fragment() {
 
     private lateinit var rvDiskon: RecyclerView
     private val list = ArrayList<diskon>()
