@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:background="@drawable/bg_apk"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -70,10 +69,31 @@
             android:id="@+id/iv_vit1"
             android:layout_width="96dp"
             android:layout_height="96dp"
-            android:layout_marginStart="92dp"
+            android:layout_marginStart="64dp"
             android:layout_marginTop="40dp"
             android:src="@drawable/penitipan1"
             app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv_dis" />
+
+        <TextView
+            android:id="@+id/tv_vit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Penitipan Hewan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_vit1" />
+
+        <ImageView
+            android:id="@+id/iv_vit2"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="68dp"
+            android:src="@drawable/kucing2"
+            app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rv_dis" />
 
         <TextView
@@ -81,32 +101,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="105dp"
-            android:text="Grooming"
+            android:layout_marginEnd="80dp"
             android:fontFamily="@font/poppinsmedium"
+            android:text="Grooming"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/iv_vit2" />
-
-        <ImageView
-            android:id="@+id/iv_vit2"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="92dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rv_dis"
-            android:src="@drawable/kucing2"/>
-
-        <TextView
-            android:id="@+id/tv_vit2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="83dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Penitipan Hewan"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_vit1" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
