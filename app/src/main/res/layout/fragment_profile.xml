@@ -45,14 +45,19 @@
             android:layout_marginStart="35dp"
             android:src="@drawable/edit_foto" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Ha Heng!"
-        android:textSize="16sp"
-        android:layout_marginTop="220dp"
-        android:layout_marginStart="165dp"/>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="210dp"
+        android:textSize="16sp" />
+
+
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="331dp"
