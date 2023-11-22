@@ -41,6 +41,9 @@
         <item>diskon1</item>
         <item>diskon1</item>
     </string-array>
+
+    <string name="text">By signing up, you are agree to our Terms and Conditions and Policies</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
