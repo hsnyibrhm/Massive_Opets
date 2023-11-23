@@ -3,6 +3,8 @@
     <style name="Base.Theme.Opets" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/oren</item>
+        <item name="itemIconTint">@color/white</item>
     </style>
 
     <style name="Theme.Opets" parent="Base.Theme.Opets" />

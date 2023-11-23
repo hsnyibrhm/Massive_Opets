@@ -9,21 +9,89 @@
     <!-- TODO: Update blank fragment layout -->
     <FrameLayout
         android:id="@+id/frameLayoutTop"
-        android:layout_width="340dp"
-        android:layout_height="30dp"
+        android:layout_width="412dp"
+        android:layout_height="48dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginHorizontal="25dp"
-        android:background="@drawable/bg_top">
+        android:layout_marginHorizontal="0dp"
+        android:background="@drawable/book_atas">
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
+        <TextView
+            android:id="@+id/textViewCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_semibold"
+            android:gravity="center"
+            android:text="Booking"
+            android:textSize="20sp"
+            android:layout_gravity="center" />
 
     </FrameLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg_booking"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.181">
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="28dp"
+                android:scaleType="centerCrop"
+                android:background="@drawable/bg_foto_booking"
+                android:src="@drawable/penitipan5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Cat Hotel"
+                android:fontFamily="@font/poppins_semibold"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="140dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="13 Nov 2023 - 14 Nov 2023"
+                android:textSize="12dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="55dp"
+                android:fontFamily="@font/poppinslight"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tambahan:"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="12dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="80dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grooming Kutu"
+                android:textSize="12dp"
+                android:layout_marginTop="105dp"
+                android:layout_marginLeft="140dp"/>
+
+        </FrameLayout>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 
 
 </FrameLayout>

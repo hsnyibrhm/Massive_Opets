@@ -2,16 +2,11 @@
     <string name="app_name">Opets</string>
 
     <integer-array name="Dis_foto">
-        <item>@drawable/penitipan1</item>
-        <item>@drawable/penitipan2</item>
-        <item>@drawable/penitipan3</item>
-        <item>@drawable/penitipan4</item>
-        <item>@drawable/penitipan5</item>
-        <item>@drawable/kucing1</item>
-        <item>@drawable/kucing2</item>
-        <item>@drawable/kucing3</item>
-        <item>@drawable/kucing4</item>
-        <item>@drawable/kucing5</item>
+        <item>@drawable/dis1</item>
+        <item>@drawable/dis2</item>
+        <item>@drawable/dis1</item>
+        <item>@drawable/dis2</item>
+
     </integer-array>
     <integer-array name="priv_foto">
         <item>@drawable/penitipan2</item>
@@ -22,11 +17,11 @@
     </integer-array>
 
     <string-array name="tgl_priv">
-        <item>12-09-2023</item>
-        <item>12-06-2023</item>
-        <item>12-07-2023</item>
-        <item>12-03-2023</item>
-        <item>12-01-2023</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
     </string-array>
 
     <string-array name="dataD_name">
@@ -34,12 +29,7 @@
         <item>diskon1</item>
         <item>diskon1</item>
         <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
+
     </string-array>
 
     <string name="text">By signing up, you are agree to our Terms and Conditions and Policies</string>
