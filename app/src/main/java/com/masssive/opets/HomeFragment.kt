@@ -1,9 +1,11 @@
 package com.masssive.opets
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -38,6 +40,20 @@ HomeFragment : Fragment() {
         list.addAll(getListDiskon())
         listt.addAll(getLisPreview())
         showRecyclerList()
+
+        val ivVit1: ImageView = view.findViewById(R.id.iv_vit1)
+        ivVit1.setOnClickListener {
+            // Start PenitipanActivity when ImageView is clicked
+            val intent = Intent(context, PenitipanActivity::class.java)
+            startActivity(intent)
+        }
+
+        val ivVit2 = view.findViewById<ImageView>(R.id.iv_vit2)
+        ivVit2.setOnClickListener {
+            // Navigate to  or perform any action you desire
+            startActivity(Intent(activity, GroomingActivity::class.java))
+        }
+
 
         return view
     }
@@ -82,4 +98,7 @@ HomeFragment : Fragment() {
 
         return listDiskon
     }
+
+
+
 }
