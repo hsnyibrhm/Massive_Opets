@@ -47,6 +47,14 @@ HomeFragment : Fragment() {
             val intent = Intent(context, PenitipanActivity::class.java)
             startActivity(intent)
         }
+        val cs: ImageView = view.findViewById(R.id.imageView)
+        cs.setOnClickListener {
+            // Start PenitipanActivity when ImageView is clicked
+            val intent = Intent(context, CustomerServiceActivity::class.java)
+            startActivity(intent)
+        }
+
+
 
         val ivVit2 = view.findViewById<ImageView>(R.id.iv_vit2)
         ivVit2.setOnClickListener {
