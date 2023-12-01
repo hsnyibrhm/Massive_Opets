@@ -59,6 +59,7 @@
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
+
         android:layout_width="331dp"
         android:layout_height="43dp"
         android:layout_gravity="center_horizontal"
@@ -103,13 +104,15 @@
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+
         android:layout_width="331dp"
         android:layout_height="43dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="50dp"
         android:layout_marginTop="296dp"
         android:layout_marginEnd="50dp"
-        android:background="@drawable/bg_profil">
+        android:background="@drawable/bg_profil"
+        android:onClick="pindahKeActivitykebijakan">
 
         <ImageView
             android:id="@+id/ic_keb_priv"

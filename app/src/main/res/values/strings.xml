@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">Opets</string>
 
+    <string name="kb1">Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi Anda.\n\nDengan menggunakan layanan kami, Anda menyetujui untuk terikat oleh Kebijakan Privasi ini.\n\nKami berhak untuk mengubah Kebijakan Privasi ini kapan saja tanpa pemberitahuan sebelumnya.\n</string>
+
     <integer-array name="Dis_foto">
         <item>@drawable/dis1</item>
         <item>@drawable/dis2</item>
