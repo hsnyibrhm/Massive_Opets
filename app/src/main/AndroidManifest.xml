@@ -13,13 +13,16 @@
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
         <activity
+            android:name=".Groooming.GroomingKutuActivity"
+            android:exported="false" />
+        <activity
             android:name=".KebijakanActivity"
             android:exported="false" />
         <activity
             android:name=".CustomerServiceActivity"
             android:exported="false" />
         <activity
-            android:name=".GroomingActivity"
+            android:name=".Groooming.GroomingActivity"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
