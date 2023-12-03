@@ -43,57 +43,118 @@
         android:layout_height="match_parent">
 
         <FrameLayout
+            android:id="@+id/hotelCat"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/card_bg_booking"
-            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/grooming"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintHorizontal_bias="0.466"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.181">
+            app:layout_constraintVertical_bias="0.831">
 
             <ImageView
                 android:layout_width="105dp"
                 android:layout_height="105dp"
                 android:layout_marginLeft="28dp"
                 android:layout_marginTop="28dp"
-                android:scaleType="centerCrop"
                 android:background="@drawable/bg_foto_booking"
+                android:scaleType="centerCrop"
                 android:src="@drawable/penitipan5" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="15dp"
-                android:text="Cat Hotel"
-                android:fontFamily="@font/poppins_semibold"
-                android:layout_marginTop="30dp"
-                android:layout_marginLeft="140dp"/>
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="13 Nov 2023 - 14 Nov 2023"
-                android:textSize="12dp"
                 android:layout_marginLeft="140dp"
-                android:layout_marginTop="55dp"
-                android:fontFamily="@font/poppinslight"/>
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Cat Hotel"
+                android:textSize="15dp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tambahan:"
-                android:fontFamily="@font/poppins_semibold"
-                android:textSize="12dp"
                 android:layout_marginLeft="140dp"
-                android:layout_marginTop="80dp"/>
+                android:layout_marginTop="55dp"
+                android:fontFamily="@font/poppinslight"
+                android:text="13 Nov 2023 - 14 Nov 2023"
+                android:textSize="12dp" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Grooming Kutu"
-                android:textSize="12dp"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Tambahan:"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
                 android:layout_marginTop="105dp"
-                android:layout_marginLeft="140dp"/>
+                android:text="Grooming Kutu"
+                android:textSize="12dp" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/grooming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_bg_booking"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.603">
+
+            <ImageView
+                android:layout_width="105dp"
+                android:layout_height="105dp"
+                android:layout_marginLeft="28dp"
+                android:layout_marginTop="28dp"
+                android:background="@drawable/bg_foto_booking"
+                android:scaleType="centerCrop"
+                android:src="@drawable/penitipan5" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Grooming Kutu"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="55dp"
+                android:fontFamily="@font/poppinslight"
+                android:text="13 November 2023"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="80dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Waktu"
+                android:textSize="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="105dp"
+                android:text="01 PM"
+                android:textSize="12dp" />
 
         </FrameLayout>
 
