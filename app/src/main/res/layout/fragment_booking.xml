@@ -52,7 +52,8 @@
             app:layout_constraintHorizontal_bias="0.466"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.831">
+            app:layout_constraintVertical_bias="0.831"
+            android:elevation="25dp">
 
             <ImageView
                 android:layout_width="105dp"
@@ -110,7 +111,8 @@
             app:layout_constraintHorizontal_bias="0.533"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.603">
+            app:layout_constraintVertical_bias="0.603"
+            android:elevation="20dp">
 
             <ImageView
                 android:layout_width="105dp"
@@ -158,10 +160,7 @@
 
         </FrameLayout>
 
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
 </FrameLayout>
