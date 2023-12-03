@@ -1,10 +1,9 @@
-package com.masssive.opets
+package com.masssive.opets.Login
 
-import android.app.Activity
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.masssive.opets.databinding.ActivityLoginBinding
+import com.masssive.opets.MainActivity
 import com.masssive.opets.databinding.ActivitySignUpBinding
 
 class SignUpActivity : AppCompatActivity() {
