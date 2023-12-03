@@ -1,7 +1,8 @@
-package com.masssive.opets
+package com.masssive.opets.Tambahan
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.masssive.opets.R
 
 class KebijakanActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

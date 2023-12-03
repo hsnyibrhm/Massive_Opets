@@ -21,10 +21,10 @@
             android:name=".Groooming.GroomingKutuActivity"
             android:exported="false" />
         <activity
-            android:name=".KebijakanActivity"
+            android:name=".Tambahan.KebijakanActivity"
             android:exported="false" />
         <activity
-            android:name=".CustomerServiceActivity"
+            android:name=".CustomerService.CustomerServiceActivity"
             android:exported="false" />
         <activity
             android:name=".Groooming.GroomingActivity"
@@ -41,7 +41,7 @@
         <activity android:name=".Login.LoginActivity" />
         <activity android:name=".Login.register" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".Splash.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
