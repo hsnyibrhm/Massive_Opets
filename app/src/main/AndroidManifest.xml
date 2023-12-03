@@ -12,8 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
-        <activity android:name=".Penitipan.BookingPenitipanActivity"
-            android:exported="false"/>
+        <activity
+            android:name=".profile.ProfileKamuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tambahan.KetentuanPenggunaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tambahan.TentangKamiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Penitipan.BookingPenitipanActivity"
+            android:exported="false" />
         <activity
             android:name=".Groooming.BookingGromingKutuActivity"
             android:exported="false" />
