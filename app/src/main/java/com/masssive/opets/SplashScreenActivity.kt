@@ -3,6 +3,7 @@ package com.masssive.opets
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.masssive.opets.Login.LoginActivity
 
 class SplashScreenActivity : AppCompatActivity() {
 
@@ -12,7 +13,7 @@ class SplashScreenActivity : AppCompatActivity() {
         val background = object : Thread(){
             override fun run(){
                 try {
-                    Thread.sleep(2000)
+                    Thread.sleep(3000)
 
                     val intent = Intent(baseContext, LoginActivity::class.java)
                     startActivity(intent)
