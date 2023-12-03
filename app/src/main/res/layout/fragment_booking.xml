@@ -17,14 +17,7 @@
         android:layout_marginHorizontal="0dp"
         android:background="@drawable/book_atas">
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#8000000"
-            android:src="@drawable/ic_back"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="parent" />
+
 
         <TextView
             android:id="@+id/textViewCenter"
