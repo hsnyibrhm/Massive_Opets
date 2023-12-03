@@ -12,6 +12,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
+        <activity android:name=".Penitipan.BookingPenitipanActivity"
+            android:exported="false"/>
         <activity
             android:name=".Groooming.BookingGromingKutuActivity"
             android:exported="false" />
@@ -31,7 +33,7 @@
             android:name=".Login.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".PenitipanActivity"
+            android:name=".Penitipan.PenitipanActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

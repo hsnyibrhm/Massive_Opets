@@ -6,7 +6,6 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.masssive.opets.KebijakanActivity
-import com.masssive.opets.PenitipanActivity
 import com.masssive.opets.R
 
 private const val ARG_PARAM1 = "param1"
