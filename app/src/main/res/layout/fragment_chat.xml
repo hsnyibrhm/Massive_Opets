@@ -14,7 +14,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="155dp"
+        android:layout_marginLeft="145dp"
         android:layout_marginTop="7dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Message"
