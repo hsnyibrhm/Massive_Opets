@@ -13,6 +13,21 @@
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
         <activity
+            android:name=".PembayaranQrisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewCatHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewGroomingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatGroomingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatCatHotelActivity"
+            android:exported="false" />
+        <activity
             android:name=".profile.ProfileKamuActivity"
             android:exported="false" />
         <activity
