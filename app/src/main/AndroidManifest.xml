@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
         <activity
+            android:name=".Login.OTPActivity"
+            android:exported="false" />
+        <activity
             android:name=".PembayaranQrisActivity"
             android:exported="false" />
         <activity
