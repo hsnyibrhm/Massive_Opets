@@ -129,8 +129,8 @@
                 android:layout_width="303dp"
                 android:layout_height="58dp"
                 android:layout_marginTop="4dp"
-                android:backgroundTint="@color/oren"
                 android:background="@drawable/btn_theme_2"
+                android:backgroundTint="@color/oren"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Continue"
                 android:textAllCaps="false"
@@ -159,7 +159,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="Sign Up"
+                android:text="Sign Upp"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@+id/tvdont"
                 app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
