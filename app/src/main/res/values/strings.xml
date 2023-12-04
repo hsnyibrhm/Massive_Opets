@@ -46,6 +46,14 @@
         Kebijakan Privasi\nKebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi Anda.\nDengan menggunakan layanan kami, Anda menyetujui untuk terikat oleh Kebijakan Privasi ini.\nKami berhak untuk mengubah Kebijakan Privasi ini kapan saja tanpa pemberitahuan sebelumnya.\n\nPengumpulan Informasi Pribadi\nKami mengumpulkan informasi pribadi Anda ketika Anda mendaftar untuk layanan kami, menggunakan layanan kami, atau berkomunikasi dengan kami.\nInformasi pribadi yang kami kumpulkan mungkin termasuk nama Anda, alamat email Anda, nomor telepon Anda, alamat Anda, dan informasi pembayaran Anda.\nKami juga mengumpulkan informasi anonim tentang penggunaan layanan kami, seperti halaman yang Anda kunjungi, waktu yang Anda habiskan di situs kami, dan tautan yang Anda klik.\n\nKeamanan Informasi Pribadi\nKami mengambil langkah-langkah yang wajar untuk melindungi informasi pribadi Anda dari kehilangan, penyalahgunaan, dan akses yang tidak sah.\n......
     </string>
 
+    <string name="kebijakan_pri">
+        Kebijakan Privasi
+    </string>
+
+    <string name="kebijakan_private">
+        Kebijakan Privasi\nKebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi Anda.\nDengan menggunakan layanan kami, Anda menyetujui untuk terikat oleh Kebijakan Privasi ini.\nKami berhak untuk mengubah Kebijakan Privasi ini kapan saja tanpa pemberitahuan sebelumnya.\n\nPengumpulan Informasi Pribadi\nKami mengumpulkan informasi pribadi Anda ketika Anda mendaftar untuk layanan kami, menggunakan layanan kami, atau berkomunikasi dengan kami.\nInformasi pribadi yang kami kumpulkan mungkin termasuk nama Anda, alamat email Anda, nomor telepon Anda, alamat Anda, dan informasi pembayaran Anda.\nKami juga mengumpulkan informasi anonim tentang penggunaan layanan kami, seperti halaman yang Anda kunjungi, waktu yang Anda habiskan di situs kami, dan tautan yang Anda klik.\n\nKeamanan Informasi Pribadi\nKami mengambil langkah-langkah yang wajar untuk melindungi informasi pribadi Anda dari kehilangan, penyalahgunaan, dan akses yang tidak sah.\n......
+    </string>
+
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
