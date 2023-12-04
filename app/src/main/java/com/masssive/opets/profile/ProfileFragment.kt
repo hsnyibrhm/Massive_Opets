@@ -7,6 +7,9 @@ import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.masssive.opets.Tambahan.KebijakanActivity
 import com.masssive.opets.R
+import com.masssive.opets.Tambahan.KetentuanPenggunaActivity
+import com.masssive.opets.Tambahan.TentangKamiActivity
+import com.masssive.opets.profile.ProfileKamuActivity
 
 private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
@@ -36,6 +39,21 @@ class ProfileFragment : Fragment() {
         icRight2.setOnClickListener {
             // Memulai aktivitas KebijakanActivity ketika ImageView diklik
             val intent = Intent(context, KebijakanActivity::class.java)
+            startActivity(intent)
+        }
+        val ic_right_1: ImageView = view.findViewById(R.id.ic_right_1)
+        ic_right_1.setOnClickListener{
+            val intent = Intent(context,ProfileKamuActivity::class.java)
+            startActivity(intent)
+        }
+        val ic_right_6: ImageView = view.findViewById(R.id.ic_right_6)
+        ic_right_6.setOnClickListener{
+            val inten = Intent(context, KetentuanPenggunaActivity::class.java)
+            startActivity(inten)
+        }
+        val ic_right_5: ImageView = view.findViewById(R.id.ic_right_5)
+        ic_right_5.setOnClickListener{
+            val intent = Intent(context, TentangKamiActivity::class.java)
             startActivity(intent)
         }
 
