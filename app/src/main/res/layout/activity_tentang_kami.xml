@@ -46,6 +46,7 @@
         android:layout_alignParentTop="true"
         android:text="@string/tentang_kam"
         android:textAppearance="@style/tentang_kam"
+        android:fontFamily="@font/poppins_regular"
         android:gravity="top"
         app:layout_constraintBottom_toBottomOf="@+id/imageView14"
         app:layout_constraintEnd_toEndOf="@+id/imageView14"

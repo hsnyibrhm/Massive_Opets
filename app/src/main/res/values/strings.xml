@@ -36,10 +36,14 @@
 
     <string name="text">By signing up, you are agree to our Terms and Conditions and Policies</string>
     <string name="tentang_kam">
-Tentang Kami\nKami adalah aplikasi penitipan hewan yang menawarkan layanan penitipan hewan yang lengkap, mulai dari penitipan harian, mingguan, hingga bulanan. Selain itu, kami juga menawarkan layanan grooming untuk hewan peliharaan Anda.\n\n\nKami memiliki tim profesional yang berpengalaman dalam merawat hewan peliharaan. Kami juga memiliki fasilitas yang lengkap untuk memastikan hewan peliharaan Anda merasa nyaman dan aman selama berada di tempat kami.
-</string>
+        Tentang Kami\nKami adalah aplikasi penitipan hewan yang menawarkan layanan penitipan hewan yang lengkap, mulai dari penitipan harian, mingguan, hingga bulanan. Selain itu, kami juga menawarkan layanan grooming untuk hewan peliharaan Anda.\n\n\nKami memiliki tim profesional yang berpengalaman dalam merawat hewan peliharaan. Kami juga memiliki fasilitas yang lengkap untuk memastikan hewan peliharaan Anda merasa nyaman dan aman selama berada di tempat kami.
+    </string>
     <string name="grooming_kh">
-    Grooming khusus untuk membunuh kutu-kutu pada kucing. Grooming kutu menggunakan shampo khusus kutu. Semua paket Grooming menggunakan Air Hangat.\n\nGrooming Include :\nPotong Kuku\nMembersihkan Telinga\nTrimming Paw\nDegreaser\nShampo khusus Kutu
+        Grooming khusus untuk membunuh kutu-kutu pada kucing. Grooming kutu menggunakan shampo khusus kutu. Semua paket Grooming menggunakan Air Hangat.\n\nGrooming Include :\nPotong Kuku\nMembersihkan Telinga\nTrimming Paw\nDegreaser\nShampo khusus Kutu
+    </string>
+
+    <string name="kebijakan_p">
+        Kebijakan Privasi\nKebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi Anda.\nDengan menggunakan layanan kami, Anda menyetujui untuk terikat oleh Kebijakan Privasi ini.\nKami berhak untuk mengubah Kebijakan Privasi ini kapan saja tanpa pemberitahuan sebelumnya.\n\nPengumpulan Informasi Pribadi\nKami mengumpulkan informasi pribadi Anda ketika Anda mendaftar untuk layanan kami, menggunakan layanan kami, atau berkomunikasi dengan kami.\nInformasi pribadi yang kami kumpulkan mungkin termasuk nama Anda, alamat email Anda, nomor telepon Anda, alamat Anda, dan informasi pembayaran Anda.\nKami juga mengumpulkan informasi anonim tentang penggunaan layanan kami, seperti halaman yang Anda kunjungi, waktu yang Anda habiskan di situs kami, dan tautan yang Anda klik.\n\nKeamanan Informasi Pribadi\nKami mengambil langkah-langkah yang wajar untuk melindungi informasi pribadi Anda dari kehilangan, penyalahgunaan, dan akses yang tidak sah.\n......
     </string>
 
 
