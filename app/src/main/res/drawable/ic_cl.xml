@@ -1,0 +1,9 @@
+<!-- res/drawable/bottom_nav_ripple.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/oren"> <!-- Ganti dengan warna yang diinginkan saat disentuh -->
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" /> <!-- Ganti dengan warna latar belakang normal -->
+        </shape>
+    </item>
+</ripple>

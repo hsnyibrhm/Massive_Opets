@@ -1,12 +1,10 @@
-package com.masssive.opets
+package com.masssive.opets.Login
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
-import android.view.View.OnClickListener
+import com.masssive.opets.MainActivity
 import com.masssive.opets.databinding.ActivityLoginBinding
-import com.masssive.opets.databinding.ActivityMainBinding
 
 class LoginActivity : AppCompatActivity(){
     private lateinit var binding: ActivityLoginBinding
@@ -21,6 +19,11 @@ class LoginActivity : AppCompatActivity(){
     private fun setupAction() {
         binding.btnLogin.setOnClickListener{
             val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.tvsignup.setOnClickListener{
+            val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
         }
     }

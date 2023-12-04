@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomeFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:background="@drawable/bg_apk"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -32,6 +31,16 @@
             android:text="OPETS"
             app:layout_constraintStart_toEndOf="@+id/iv_top2"
             app:layout_constraintTop_toTopOf="@+id/iv_top" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:src="@drawable/bell"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_top"
+            app:layout_constraintEnd_toEndOf="@+id/iv_top"
+            app:layout_constraintTop_toTopOf="@+id/iv_top"
+            app:layout_constraintVertical_bias="0.6" />
 
         <ImageView
             android:id="@+id/iv_top2"
@@ -66,53 +75,75 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/rv_dis" />
 
-        <ImageView
-            android:id="@+id/iv_vit1"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cv_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginStart="85dp"
             android:layout_marginTop="40dp"
-            android:src="@drawable/penitipan1"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rv_dis" />
+            app:layout_constraintTop_toBottomOf="@+id/rv_dis">
+
+            <ImageView
+                android:id="@+id/iv_vit1"
+                android:layout_width="96dp"
+                android:layout_height="75dp"
+                android:src="@drawable/penitipan1" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/tv_vit2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="73dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:text="Penitipan Hewan"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cv_1" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="85dp"
+            android:id="@+id/cv_2"
+            android:layout_marginTop="40dp"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="4dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/rv_dis">
+
+            <ImageView
+                android:id="@+id/iv_vit2"
+                android:layout_width="96dp"
+                android:layout_height="75dp"
+                android:src="@drawable/kucing2" />
+
+        </androidx.cardview.widget.CardView>
+
 
         <TextView
             android:id="@+id/tv_vit1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:layout_marginEnd="95dp"
+            android:layout_marginEnd="93dp"
             android:text="Grooming"
             android:fontFamily="@font/poppinsmedium"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_vit2" />
+            app:layout_constraintTop_toBottomOf="@+id/cv_2" />
 
-        <ImageView
-            android:id="@+id/iv_vit2"
-            android:layout_width="96dp"
-            android:layout_height="96dp"
-            android:layout_marginTop="40dp"
-            android:layout_marginEnd="85dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/rv_dis"
-            android:src="@drawable/kucing2"/>
 
-        <TextView
-            android:id="@+id/tv_vit2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="75dp"
-            android:layout_marginTop="8dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Penitipan Hewan"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/iv_vit1" />
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
             android:layout_width="0dp"
             android:layout_height="190dp"
-            android:layout_marginTop="450dp"
+            android:layout_marginTop="400dp"
             android:layout_marginBottom="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -121,6 +152,26 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.0" />
 
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="16dp"
+            android:src="@drawable/bg_cs"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/recyclerView">
+
+        </ImageView>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cus_ser"
+            app:layout_constraintBottom_toBottomOf="@+id/imageView"
+            app:layout_constraintEnd_toEndOf="@+id/imageView"
+            app:layout_constraintStart_toStartOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="@+id/imageView" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>

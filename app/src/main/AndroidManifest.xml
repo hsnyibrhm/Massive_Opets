@@ -13,12 +13,63 @@
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
         <activity
+            android:name=".Login.OTPActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PembayaranQrisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewCatHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReviewGroomingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatGroomingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chat.ChatCatHotelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".profile.ProfileKamuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tambahan.KetentuanPenggunaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tambahan.TentangKamiActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Penitipan.BookingPenitipanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Groooming.BookingGromingKutuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Groooming.GroomingKutuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Tambahan.KebijakanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CustomerService.CustomerServiceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Groooming.GroomingActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Login.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Penitipan.PenitipanActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="false" />
-        <activity android:name=".LoginActivity"/>
-        <activity android:name=".register"/>
+        <activity android:name=".Login.LoginActivity" />
+        <activity android:name=".Login.register" />
         <activity
-            android:name=".SplashScreenActivity"
+            android:name=".Splash.SplashScreenActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

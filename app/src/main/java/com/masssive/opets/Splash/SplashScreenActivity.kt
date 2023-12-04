@@ -1,8 +1,10 @@
-package com.masssive.opets
+package com.masssive.opets.Splash
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.masssive.opets.Login.LoginActivity
+import com.masssive.opets.R
 
 class SplashScreenActivity : AppCompatActivity() {
 

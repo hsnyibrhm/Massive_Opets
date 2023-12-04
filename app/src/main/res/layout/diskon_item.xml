@@ -13,20 +13,20 @@
     app:cardCornerRadius="16dp"
     app:strokeWidth="0dp"
     app:strokeColor="#E0E0E0"
-    android:layout_height="wrap_content"
-    android:layout_width="150dp"
+    android:layout_width="250dp"
+    android:layout_height="135dp"
     android:contentDescription="foto diskon">
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="250dp"
+        android:layout_height="130dp"
         android:layout_margin="0dp"
         android:backgroundTint="@color/white">
 
        <com.google.android.material.card.MaterialCardView
            android:id="@+id/card_img2"
-           android:layout_width="wrap_content"
-           android:layout_height="wrap_content"
+           android:layout_width="250dp"
+           android:layout_height="135dp"
            android:layout_marginStart="0dp"
            android:backgroundTint="@color/white"
            app:cardCornerRadius="16dp"
@@ -38,8 +38,8 @@
 
            <ImageView
                android:id="@+id/img_dis"
-               android:layout_width="150dp"
-               android:layout_height="150dp"
+               android:layout_width="250dp"
+               android:layout_height="135dp"
                android:scaleType="centerCrop"
                tools:srcCompat="@tools:sample/avatars" />
 

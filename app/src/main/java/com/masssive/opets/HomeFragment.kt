@@ -1,18 +1,24 @@
 package com.masssive.opets
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.masssive.opets.CustomerService.CustomerServiceActivity
 import com.masssive.opets.adapter.ListDiskonAdapter
 import com.masssive.opets.adapter.ListPriviewAdapter
+import com.masssive.opets.Groooming.GroomingActivity
+import com.masssive.opets.Penitipan.PenitipanActivity
 import com.masssive.opets.model.Preview
 import com.masssive.opets.model.diskon
 
-class HomeFragment : Fragment() {
+class
+HomeFragment : Fragment() {
 
     private lateinit var rvDiskon: RecyclerView
     private lateinit var rvPriview: RecyclerView
@@ -38,6 +44,28 @@ class HomeFragment : Fragment() {
         listt.addAll(getLisPreview())
         showRecyclerList()
 
+        val ivVit1: ImageView = view.findViewById(R.id.iv_vit1)
+        ivVit1.setOnClickListener {
+            // Start PenitipanActivity when ImageView is clicked
+            val intent = Intent(context, PenitipanActivity::class.java)
+            startActivity(intent)
+        }
+        val cs: ImageView = view.findViewById(R.id.imageView)
+        cs.setOnClickListener {
+            // Start PenitipanActivity when ImageView is clicked
+            val intent = Intent(context, CustomerServiceActivity::class.java)
+            startActivity(intent)
+        }
+
+
+
+        val ivVit2 = view.findViewById<ImageView>(R.id.iv_vit2)
+        ivVit2.setOnClickListener {
+            // Navigate to  or perform any action you desire
+            startActivity(Intent(activity, GroomingActivity::class.java))
+        }
+
+
         return view
     }
 
@@ -60,6 +88,7 @@ class HomeFragment : Fragment() {
         rvPriview.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         val listPriviewAdapter = ListPriviewAdapter(listt)
         rvPriview.adapter = listPriviewAdapter
+
         rvDiskon.layoutManager = LinearLayoutManager(context, LinearLayoutManager.HORIZONTAL, false)
         val listDiskonAdapter = ListDiskonAdapter(list)
         rvDiskon.adapter = listDiskonAdapter
@@ -80,4 +109,7 @@ class HomeFragment : Fragment() {
 
         return listDiskon
     }
+
+
+
 }

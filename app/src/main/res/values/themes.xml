@@ -3,6 +3,31 @@
     <style name="Base.Theme.Opets" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/oren</item>
+        <item name="itemIconTint">@color/white</item>
+    </style>
+
+    <style name="tentang_kam">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#141313</item>
+    </style>
+    <style name="grooming_kh">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#272323</item>
+    </style>
+    <style name="kebijakan_p">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="kebijakan_priv">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#070707</item>
+    </style>
+
+    <style name="kebijakan_private">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
     </style>
 
     <style name="Theme.Opets" parent="Base.Theme.Opets" />

@@ -1,17 +1,14 @@
 <resources>
     <string name="app_name">Opets</string>
 
+    <string name="kb1">Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi Anda.\n\nDengan menggunakan layanan kami, Anda menyetujui untuk terikat oleh Kebijakan Privasi ini.\n\nKami berhak untuk mengubah Kebijakan Privasi ini kapan saja tanpa pemberitahuan sebelumnya.\n</string>
+
     <integer-array name="Dis_foto">
-        <item>@drawable/penitipan1</item>
-        <item>@drawable/penitipan2</item>
-        <item>@drawable/penitipan3</item>
-        <item>@drawable/penitipan4</item>
-        <item>@drawable/penitipan5</item>
-        <item>@drawable/kucing1</item>
-        <item>@drawable/kucing2</item>
-        <item>@drawable/kucing3</item>
-        <item>@drawable/kucing4</item>
-        <item>@drawable/kucing5</item>
+        <item>@drawable/dis1</item>
+        <item>@drawable/dis2</item>
+        <item>@drawable/dis1</item>
+        <item>@drawable/dis2</item>
+
     </integer-array>
     <integer-array name="priv_foto">
         <item>@drawable/penitipan2</item>
@@ -22,11 +19,11 @@
     </integer-array>
 
     <string-array name="tgl_priv">
-        <item>12-09-2023</item>
-        <item>12-06-2023</item>
-        <item>12-07-2023</item>
-        <item>12-03-2023</item>
-        <item>12-01-2023</item>
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
     </string-array>
 
     <string-array name="dataD_name">
@@ -34,16 +31,29 @@
         <item>diskon1</item>
         <item>diskon1</item>
         <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
-        <item>diskon1</item>
+
     </string-array>
 
     <string name="text">By signing up, you are agree to our Terms and Conditions and Policies</string>
+    <string name="tentang_kam">
+        Tentang Kami\nKami adalah aplikasi penitipan hewan yang menawarkan layanan penitipan hewan yang lengkap, mulai dari penitipan harian, mingguan, hingga bulanan. Selain itu, kami juga menawarkan layanan grooming untuk hewan peliharaan Anda.\n\n\nKami memiliki tim profesional yang berpengalaman dalam merawat hewan peliharaan. Kami juga memiliki fasilitas yang lengkap untuk memastikan hewan peliharaan Anda merasa nyaman dan aman selama berada di tempat kami.
+    </string>
+    <string name="grooming_kh">
+        Grooming khusus untuk membunuh kutu-kutu pada kucing. Grooming kutu menggunakan shampo khusus kutu. Semua paket Grooming menggunakan Air Hangat.\n\nGrooming Include :\nPotong Kuku\nMembersihkan Telinga\nTrimming Paw\nDegreaser\nShampo khusus Kutu
+    </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="kebijakan_p">
+        Kebijakan Privasi\nKebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi Anda.\nDengan menggunakan layanan kami, Anda menyetujui untuk terikat oleh Kebijakan Privasi ini.\nKami berhak untuk mengubah Kebijakan Privasi ini kapan saja tanpa pemberitahuan sebelumnya.\n\nPengumpulan Informasi Pribadi\nKami mengumpulkan informasi pribadi Anda ketika Anda mendaftar untuk layanan kami, menggunakan layanan kami, atau berkomunikasi dengan kami.\nInformasi pribadi yang kami kumpulkan mungkin termasuk nama Anda, alamat email Anda, nomor telepon Anda, alamat Anda, dan informasi pembayaran Anda.\nKami juga mengumpulkan informasi anonim tentang penggunaan layanan kami, seperti halaman yang Anda kunjungi, waktu yang Anda habiskan di situs kami, dan tautan yang Anda klik.\n\nKeamanan Informasi Pribadi\nKami mengambil langkah-langkah yang wajar untuk melindungi informasi pribadi Anda dari kehilangan, penyalahgunaan, dan akses yang tidak sah.\n......
+    </string>
+
+    <string name="kebijakan_pri">
+        Kebijakan Privasi
+    </string>
+
+    <string name="kebijakan_private">
+        Kebijakan Privasi\nKebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan mengungkapkan informasi pribadi Anda.\nDengan menggunakan layanan kami, Anda menyetujui untuk terikat oleh Kebijakan Privasi ini.\nKami berhak untuk mengubah Kebijakan Privasi ini kapan saja tanpa pemberitahuan sebelumnya.\n\nPengumpulan Informasi Pribadi\nKami mengumpulkan informasi pribadi Anda ketika Anda mendaftar untuk layanan kami, menggunakan layanan kami, atau berkomunikasi dengan kami.\nInformasi pribadi yang kami kumpulkan mungkin termasuk nama Anda, alamat email Anda, nomor telepon Anda, alamat Anda, dan informasi pembayaran Anda.\nKami juga mengumpulkan informasi anonim tentang penggunaan layanan kami, seperti halaman yang Anda kunjungi, waktu yang Anda habiskan di situs kami, dan tautan yang Anda klik.\n\nKeamanan Informasi Pribadi\nKami mengambil langkah-langkah yang wajar untuk melindungi informasi pribadi Anda dari kehilangan, penyalahgunaan, dan akses yang tidak sah.\n......
+    </string>
+
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
