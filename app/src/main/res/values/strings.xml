@@ -35,7 +35,13 @@
     </string-array>
 
     <string name="text">By signing up, you are agree to our Terms and Conditions and Policies</string>
+    <string name="tentang_kam">
+Tentang Kami\nKami adalah aplikasi penitipan hewan yang menawarkan layanan penitipan hewan yang lengkap, mulai dari penitipan harian, mingguan, hingga bulanan. Selain itu, kami juga menawarkan layanan grooming untuk hewan peliharaan Anda.\n\n\nKami memiliki tim profesional yang berpengalaman dalam merawat hewan peliharaan. Kami juga memiliki fasilitas yang lengkap untuk memastikan hewan peliharaan Anda merasa nyaman dan aman selama berada di tempat kami.
+</string>
+    <string name="grooming_kh">
+    Grooming khusus untuk membunuh kutu-kutu pada kucing. Grooming kutu menggunakan shampo khusus kutu. Semua paket Grooming menggunakan Air Hangat.\n\nGrooming Include :\nPotong Kuku\nMembersihkan Telinga\nTrimming Paw\nDegreaser\nShampo khusus Kutu
+    </string>
 
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
