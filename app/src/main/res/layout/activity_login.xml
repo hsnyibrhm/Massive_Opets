@@ -162,7 +162,7 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/poppins_semibold"
-                android:text="Sign Upp"
+                android:text="Sign Up"
                 android:textColor="@color/black"
                 app:layout_constraintStart_toEndOf="@+id/tvdont"
                 app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
