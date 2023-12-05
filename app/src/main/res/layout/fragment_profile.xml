@@ -57,9 +57,7 @@
         android:layout_marginTop="210dp"
         android:textSize="16sp" />
 
-
     <androidx.constraintlayout.widget.ConstraintLayout
-
         android:layout_width="331dp"
         android:layout_height="43dp"
         android:layout_gravity="center_horizontal"
@@ -153,100 +151,8 @@
         android:layout_height="43dp"
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="50dp"
-        android:layout_marginTop="335dp"
         android:layout_marginEnd="50dp"
-        android:background="@drawable/bg_profil">
-
-
-        <ImageView
-            android:id="@+id/ic_bantuan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:src="@drawable/ic_bantuan"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <TextView
-            android:id="@+id/pusat_bantuan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Pusat bantuan"
-            android:textSize="16sp"
-            android:layout_marginStart="16dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/ic_bantuan"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0" />
-
-        <ImageView
-            android:id="@+id/ic_right_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_right"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.984"
-            app:layout_constraintStart_toEndOf="@+id/pusat_bantuan"
-            app:layout_constraintTop_toTopOf="parent" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="331dp"
-        android:layout_height="43dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="375dp"
-        android:background="@drawable/bg_profil">
-
-        <ImageView
-            android:id="@+id/ic_set"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_set"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.454" />
-
-        <TextView
-            android:id="@+id/pengaturan"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="16dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:text="Pengaturan"
-            android:textSize="16sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/ic_set"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/ic_right_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_right"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.987"
-            app:layout_constraintStart_toEndOf="@+id/pengaturan"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.454" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:layout_width="331dp"
-        android:layout_height="43dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginStart="50dp"
-        android:layout_marginEnd="50dp"
-        android:layout_marginTop="414dp"
+        android:layout_marginTop="338dp"
         android:background="@drawable/bg_profil">
 
         <ImageView
@@ -289,7 +195,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="380dp"
         android:background="@drawable/bg_profil">
 
         <ImageView
@@ -333,7 +239,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_marginTop="490dp"
+        android:layout_marginTop="420dp"
         android:background="@drawable/bg_profil">
 
 
