@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.masssive.opets.MainActivity
+import com.masssive.opets.MyPreference
 import com.masssive.opets.databinding.ActivityLoginBinding
 
 class LoginActivity : AppCompatActivity(){
@@ -12,6 +13,11 @@ class LoginActivity : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        val myPreference = MyPreference(this)
+        var LoginCount = myPreference.getLoginCount()
+        LoginCount++
+        myPreference.setLoginCount(LoginCount)
 
         setupAction()
     }

@@ -1,3 +1,4 @@
+import android.app.AlertDialog
 import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -57,8 +58,29 @@ class ProfileFragment : Fragment() {
             startActivity(intent)
         }
 
+        val ic_right_7: ImageView = view.findViewById(R.id.ic_right_7)
+        ic_right_7.setOnClickListener{
+            showExitConfirmationDialog()
+        }
+
         return view
     }
+
+    private fun showExitConfirmationDialog() {
+        val builder = AlertDialog.Builder(requireContext())
+        builder.setTitle("Konfirmasi")
+            .setMessage("Apakah Anda yakin ingin menutup aplikasi?")
+            .setPositiveButton("Ya") { _, _ ->
+                // Tindakan ketika pengguna memilih "Ya" (tutup aplikasi)
+                activity?.finish()
+            }
+            .setNegativeButton("Tidak") { dialog, _ ->
+                // Tindakan ketika pengguna memilih "Tidak" (tutup dialog)
+                dialog.dismiss()
+            }
+            .show()
+    }
+
 
     companion object {
         @JvmStatic

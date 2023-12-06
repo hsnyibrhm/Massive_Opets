@@ -40,13 +40,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/card_bg_booking"
+            android:elevation="25dp"
             app:layout_constraintBottom_toTopOf="@+id/grooming"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.466"
+            app:layout_constraintHorizontal_bias="0.493"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.831"
-            android:elevation="25dp">
+            app:layout_constraintVertical_bias="0.765">
 
             <ImageView
                 android:layout_width="105dp"
@@ -99,13 +99,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@drawable/card_bg_booking"
+            android:elevation="20dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.533"
+            app:layout_constraintHorizontal_bias="0.53"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.603"
-            android:elevation="20dp">
+            app:layout_constraintVertical_bias="0.446">
 
             <ImageView
                 android:layout_width="105dp"
