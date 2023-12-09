@@ -7,32 +7,40 @@ import com.masssive.opets.MainActivity
 import com.masssive.opets.MyPreference
 import com.masssive.opets.databinding.ActivityLoginBinding
 
-class LoginActivity : AppCompatActivity(){
+class LoginActivity : AppCompatActivity() {
     private lateinit var binding: ActivityLoginBinding
+    private lateinit var myPreference: MyPreference
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val myPreference = MyPreference(this)
-        var LoginCount = myPreference.getLoginCount()
-        LoginCount++
-        myPreference.setLoginCount(LoginCount)
+        myPreference = MyPreference(this)
+
+        val loginCount = myPreference.getLoginCount()
+
+        if (loginCount > 5) {
+
+        }
 
         setupAction()
     }
 
     private fun setupAction() {
-        binding.btnLogin.setOnClickListener{
+        binding.btnLogin.setOnClickListener {
+
+            val currentLoginCount = myPreference.getLoginCount()
+            myPreference.setLoginCount(currentLoginCount + 1)
+
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()
         }
 
-        binding.tvsignup.setOnClickListener{
+        binding.tvsignup.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
         }
     }
-
-
 }
