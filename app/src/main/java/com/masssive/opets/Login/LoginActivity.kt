@@ -1,5 +1,6 @@
 package com.masssive.opets.Login
 
+
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -38,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
 
-        binding.tvsignup.setOnClickListener {
+        binding.tvSignUP.setOnClickListener {
             val intent = Intent(this, SignUpActivity::class.java)
             startActivity(intent)
         }
