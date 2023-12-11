@@ -153,7 +153,7 @@
         android:layout_width="279dp"
         android:layout_height="48dp"
         android:padding="8dp"
-        android:text="Update Profil"
+        android:text="Edit Profil"
         android:fontFamily="@font/poppins_semibold"
         android:textSize="16sp"
         android:textColor="@color/black"
