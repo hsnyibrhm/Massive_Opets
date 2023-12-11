@@ -134,7 +134,7 @@
                 android:id="@+id/tvterm"
                 android:layout_width="303dp"
                 android:layout_height="36dp"
-                android:layout_marginStart="36dp"
+                android:layout_marginStart="12dp"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:text="@string/text"

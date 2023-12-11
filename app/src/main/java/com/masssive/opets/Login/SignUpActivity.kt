@@ -48,11 +48,14 @@ class SignUpActivity : AppCompatActivity() {
         val password = binding.etPassword.text.toString()
 
         // Memeriksa apakah email dan password tidak kosong
-        if (email.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Email dan password harus diisi", Toast.LENGTH_SHORT).show()
+        if (email.isEmpty()) {
+            Toast.makeText(this, "Email harus diisi", Toast.LENGTH_SHORT).show()
             return
         }
-
+        if (password.isEmpty()) {
+            Toast.makeText(this, "Password harus diisi", Toast.LENGTH_SHORT).show()
+            return
+        }
         // Membuat user baru dengan email dan password
         auth.createUserWithEmailAndPassword(email, password)
             .addOnCompleteListener(this) { task ->
