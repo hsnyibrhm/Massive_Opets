@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
+import com.masssive.opets.Login.LoginActivity
 import com.masssive.opets.Tambahan.KebijakanActivity
 import com.masssive.opets.R
 import com.masssive.opets.Tambahan.KetentuanPenggunaActivity
@@ -72,6 +73,9 @@ class ProfileFragment : Fragment() {
             .setMessage("Apakah Anda yakin ingin menutup aplikasi?")
             .setPositiveButton("Ya") { _, _ ->
                 // Tindakan ketika pengguna memilih "Ya" (tutup aplikasi)
+                val intent = Intent(requireContext(), LoginActivity::class.java)
+
+                startActivity(intent)
                 activity?.finish()
             }
             .setNegativeButton("Tidak") { dialog, _ ->
