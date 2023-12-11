@@ -91,7 +91,7 @@
                 android:layout_marginTop="8dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:hint="Masukan alamat email"
-                android:inputType="textPassword"
+                android:inputType="textEmailAddress"
                 android:paddingStart="30dp"
                 android:textColor="@color/black"
                 android:textSize="15dp"
@@ -134,7 +134,7 @@
                 android:id="@+id/tvterm"
                 android:layout_width="303dp"
                 android:layout_height="36dp"
-                android:layout_marginStart="36dp"
+                android:layout_marginStart="12dp"
                 android:layout_marginTop="12dp"
                 android:fontFamily="@font/poppinsmedium"
                 android:text="@string/text"
@@ -143,7 +143,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnSignUp"
                 android:layout_width="200dp"
                 android:layout_height="40dp"
                 android:layout_marginTop="16dp"

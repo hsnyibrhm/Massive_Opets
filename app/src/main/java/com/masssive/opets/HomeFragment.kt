@@ -61,7 +61,7 @@ HomeFragment : Fragment() {
 
         val ivVit2 = view.findViewById<ImageView>(R.id.iv_vit2)
         ivVit2.setOnClickListener {
-            // Navigate to  or perform any action you desire
+            // Navigate to  or perform any action
             startActivity(Intent(activity, GroomingActivity::class.java))
         }
 
