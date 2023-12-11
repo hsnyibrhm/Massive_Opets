@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "713216500332",
+    "project_id": "opets-a31ae",
+    "storage_bucket": "opets-a31ae.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713216500332:android:036bc4669f11ace1576e49",
+        "android_client_info": {
+          "package_name": "com.masssive.opets"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEom1gpPTkMDwZDNKbQEytpnTryg9P-Pw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
