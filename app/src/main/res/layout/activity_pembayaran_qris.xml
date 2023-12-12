@@ -7,11 +7,124 @@
     android:background="@color/pudar"
     tools:context=".PembayaranQrisActivity">
 
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toTopOf="@+id/bg_qris"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432" />
+
     <ImageView
+        android:id="@+id/bg_qris"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        />
+        android:src="@drawable/bg_qris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.095" />
 
+    <ImageView
+        android:id="@+id/img_qris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/qris"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.097" />
 
+    <Button
+        android:id="@+id/ic_donlod"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ic_donlod"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.813"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg_qris" />
+
+    <ImageView
+        android:id="@+id/bg_card1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_jam_pembayaran"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_donlod" />
+
+    <TextView
+        android:id="@+id/tv_jam_pembayaran"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="23 Jam     |     58 Menit     |     20 Detik"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_donlod" />
+
+    <ImageView
+        android:id="@+id/bg_card2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/bg_total_bayar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg_card1" />
+
+    <TextView
+        android:id="@+id/tv_total_bayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="Total Bayar: Rp. 90.000"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg_card1" />
+
+    <ImageView
+        android:id="@+id/bg_card3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_card_cara_bayar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bg_card2" />
+
+    <TextView
+        android:id="@+id/tv_cara_bayar"
+        android:layout_width="250sp"
+        android:layout_height="210sp"
+        android:layout_marginTop="16dp"
+        android:text="Cara Pembayaran: \n
+        \n1. Silahkan unduh kode QRIS.
+        \n2. Halaman kode QRIS akan hilang dalam 5 menit.
+        \n3. Buka aplikasi pembayaran dan pilih opsi pembayaran dengan QRIS.
+        \n4. Masukkan kode QRIS dalam pembayaran.
+        \n5. Pastikan total pembayaran sama dengan detail diaplikasi OPETS.
+        \n6. Jika sudah sesuai, bayar transaksi anda.
+        \n7. Transaksi berhasil.
+        \n8. Buka aplikasi OPETS, klik fitur booking untuk memastikan transaksi telah berhasil."
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/bg_card3"
+        app:layout_constraintStart_toStartOf="@+id/bg_card3"
+        app:layout_constraintTop_toTopOf="@+id/bg_card3" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
