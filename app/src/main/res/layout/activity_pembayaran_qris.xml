@@ -112,15 +112,7 @@
         android:layout_width="250sp"
         android:layout_height="210sp"
         android:layout_marginTop="16dp"
-        android:text="Cara Pembayaran: \n
-        \n1. Silahkan unduh kode QRIS.
-        \n2. Halaman kode QRIS akan hilang dalam 5 menit.
-        \n3. Buka aplikasi pembayaran dan pilih opsi pembayaran dengan QRIS.
-        \n4. Masukkan kode QRIS dalam pembayaran.
-        \n5. Pastikan total pembayaran sama dengan detail diaplikasi OPETS.
-        \n6. Jika sudah sesuai, bayar transaksi anda.
-        \n7. Transaksi berhasil.
-        \n8. Buka aplikasi OPETS, klik fitur booking untuk memastikan transaksi telah berhasil."
+        android:text="@string/cara_bayar"
         android:textSize="12sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/bg_card3"
