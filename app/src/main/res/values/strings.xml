@@ -66,6 +66,20 @@
 \n- Degreaser
 \n- Shampo khusus Kutu
     </string>
+    
+    <string name="cara_bayar">
+        Cara Pembayaran: \n
+        \n1. Silahkan unduh kode QRIS.
+        \n2. Halaman kode QRIS akan hilang dalam 5 menit.
+        \n3. Buka aplikasi pembayaran dan pilih opsi pembayaran dengan QRIS.
+        \n4. Masukkan kode QRIS dalam pembayaran.
+        \n5. Pastikan total pembayaran sama dengan detail diaplikasi OPETS.
+        \n6. Jika sudah sesuai, bayar transaksi anda.
+        \n7. Transaksi berhasil.
+        \n8. Buka aplikasi OPETS, klik fitur booking untuk memastikan transaksi telah berhasil.
+    </string>
+
+    <string name="ketmasukkode">Enter 4 digit verification code sent to your registered\nmobile number.</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
