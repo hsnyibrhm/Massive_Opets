@@ -138,11 +138,10 @@
             app:layout_constraintTop_toBottomOf="@+id/cv_2" />
 
 
-
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recyclerView"
-            android:layout_width="0dp"
-            android:layout_height="190dp"
+            android:layout_width="410dp"
+            android:layout_height="214dp"
             android:layout_marginTop="400dp"
             android:layout_marginBottom="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
