@@ -34,137 +34,86 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.335" />
 
-    <FrameLayout
-        android:id="@+id/frameLayout"
+    <ImageView
+        android:id="@+id/ivotp"
         android:layout_width="330dp"
-        android:layout_height="312dp"
+        android:layout_height="319dp"
         android:layout_marginHorizontal="33dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/card"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvopet">
+        app:layout_constraintTop_toBottomOf="@+id/tvopet"/>
 
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:layout_width="330dp"
-            android:layout_height="312dp">
+    <TextView
+        android:id="@+id/tvOTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Masukkan kode OTP"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.123"
+        app:layout_constraintStart_toStartOf="@id/ivotp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.517" />
+    <TextView
+        android:id="@+id/tv_desc1"
+        android:layout_width="300sp"
+        android:layout_height="wrap_content"
+        android:gravity="start"
+        android:text="@string/ketmasukkode"
+        android:textSize="11sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvOTP" />
 
+    <ImageView
+        android:id="@+id/bg_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/bg_otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc1" />
 
-            <TextView
-                android:id="@+id/tvOTP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="ENTER OTP"
-                android:textColor="@color/black"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.067"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.056" />
+    <ImageView
+        android:id="@+id/bg_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="@id/bg_btn1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc1" />
 
-            <TextView
-                android:id="@+id/tv_desc1"
-                android:layout_width="300sp"
-                android:layout_height="wrap_content"
-                android:gravity="start"
-                android:text="Enter 4 digit verification code sent to your registered mobile number."
-                android:textSize="11sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvOTP" />
+    <ImageView
+        android:id="@+id/bg_btn3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toStartOf="@id/bg_btn2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc1" />
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tv_desc1">
-
-
-                <ImageView
-                    android:id="@+id/bg_btn1"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg_otp"
-                    android:layout_marginHorizontal="10dp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_desc1" />
-                <ImageView
-                    android:id="@+id/bg_btn2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:background="@drawable/bg_otp"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/tv_desc1" />
-
-
-
-            </LinearLayout>
-
-            <TextView
-                android:id="@+id/tvforgot"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="172dp"
-                android:layout_marginTop="12dp"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="Forgot Password?"
-                android:textColor="@color/black"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/etPassword" />
-
-            <Button
-                android:id="@+id/btnLogin"
-                android:layout_width="303dp"
-                android:layout_height="58dp"
-                android:layout_marginTop="124dp"
-                android:background="@drawable/btn_theme_2"
-                android:backgroundTint="@color/oren"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="Continue"
-                android:textAllCaps="false"
-                android:textColor="@color/black"
-                app:layout_constraintEnd_toEndOf="parent"
-
-                app:layout_constraintHorizontal_bias="0.592"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvforgot" />
-
-            <TextView
-                android:id="@+id/tvdont"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="48dp"
-                android:layout_marginTop="12dp"
-                android:fontFamily="@font/poppinsmedium"
-                android:text="Don’t have an account?"
-                android:textColor="@color/black"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
-
-            <TextView
-                android:id="@+id/tvSignUP"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="12dp"
-                android:fontFamily="@font/poppins_semibold"
-                android:text="Sign Up"
-                android:textColor="@color/black"
-                app:layout_constraintStart_toEndOf="@+id/tvdont"
-                app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
-
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-
-    </FrameLayout>
+    <ImageView
+        android:id="@+id/bg_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/bg_otp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="@id/bg_btn3"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
