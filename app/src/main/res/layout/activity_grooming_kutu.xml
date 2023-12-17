@@ -135,7 +135,7 @@
 
     <Button
         android:id="@+id/btn_booking_gk"
-        android:layout_width="420dp"
+        android:layout_width="match_parent"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_booking"
