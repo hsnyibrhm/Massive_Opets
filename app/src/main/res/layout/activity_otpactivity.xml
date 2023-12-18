@@ -41,9 +41,12 @@
         android:layout_marginHorizontal="33dp"
         android:layout_marginTop="10dp"
         android:background="@drawable/card"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvopet"/>
+        app:layout_constraintTop_toBottomOf="@+id/tvopet"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/tvOTP"
@@ -60,6 +63,7 @@
         app:layout_constraintStart_toStartOf="@id/ivotp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.517" />
+
     <TextView
         android:id="@+id/tv_desc1"
         android:layout_width="300sp"
