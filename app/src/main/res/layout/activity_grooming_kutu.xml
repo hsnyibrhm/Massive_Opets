@@ -135,7 +135,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <Button
-        android:id="@+id/next"
+        android:id="@+id/nextkt"
         android:layout_width="42dp"
         android:layout_height="45dp"
         android:layout_marginStart="265dp"
