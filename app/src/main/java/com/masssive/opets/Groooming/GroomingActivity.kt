@@ -19,7 +19,7 @@ class GroomingActivity : AppCompatActivity() {
 
     private fun setupAction() {
 
-        binding.imageView4.setOnClickListener{
+        binding.groKutu.setOnClickListener{
             val intent = Intent(this, GroomingKutuActivity::class.java)
             startActivity(intent)
         }
