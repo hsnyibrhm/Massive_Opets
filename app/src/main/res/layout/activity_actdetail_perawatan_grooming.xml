@@ -7,6 +7,18 @@
     android:background="@color/oren"
     tools:context=".actdetail_perawatan_grooming">
 
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="26.97dp"
+        android:layout_height="26.97dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
     <TextView
         android:id="@+id/tv_detail_perawatan"
         android:layout_width="wrap_content"
@@ -25,7 +37,8 @@
         android:layout_width="140dp"
         android:layout_height="30dp"
         android:layout_marginTop="15dp"
-        android:fontFamily="@font/poppins_semibold"
+        android:fontFamily="@font/poppinsbold"
+        android:textColor="@color/black"
         android:text="Nama Pemilik"
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -37,7 +50,7 @@
         android:id="@+id/et_nama_pemilik"
         android:layout_width="155dp"
         android:layout_height="40dp"
-        android:background="@drawable/bg_detail_perawatan"
+        android:background="@drawable/btn_detail_perawatan"
         android:gravity=""
         android:hint="  Masukkan Nama"
         app:layout_constraintEnd_toEndOf="parent"
@@ -62,7 +75,7 @@
         android:id="@+id/et_nama_kucing"
         android:layout_width="155dp"
         android:layout_height="40dp"
-        android:background="@drawable/bg_detail_perawatan"
+        android:background="@drawable/btn_detail_perawatan"
         android:hint="  Nama Kucing"
         android:textAlignment="center"
         tools:ignore="MissingConstraints"
@@ -86,7 +99,7 @@
         android:id="@+id/et__kucing"
         android:layout_width="155dp"
         android:layout_height="40dp"
-        android:background="@drawable/bg_detail_perawatan"
+        android:background="@drawable/btn_detail_perawatan"
         android:hint="      Jenis Kucing"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.386"
@@ -118,20 +131,18 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_brt1"
-
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text="2Kg" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_brt2"
-
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text=">2Kg" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -140,7 +151,7 @@
             android:layout_width="80dp"
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text="≥2Kg" />
 
     </LinearLayout>
@@ -160,7 +171,7 @@
         android:id="@+id/img_star_date"
         android:layout_width="170dp"
         android:layout_height="30dp"
-        android:src="@drawable/bg_detail_perawatan"
+        android:src="@drawable/btn_detail_perawatan"
         android:textSize="14sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="30dp"
@@ -189,7 +200,7 @@
         android:id="@+id/img_end_date"
         android:layout_width="170dp"
         android:layout_height="30dp"
-        android:src="@drawable/bg_detail_perawatan"
+        android:src="@drawable/btn_detail_perawatan"
         android:textSize="14sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="218dp"
@@ -241,7 +252,7 @@
             android:layout_width="160dp"
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text="Grooming Nutrition"
             android:textSize="14sp" />
 
@@ -250,7 +261,7 @@
             android:layout_width="160dp"
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text="Grooming Kutu"
             android:textSize="14sp" />
     </LinearLayout>
@@ -270,7 +281,7 @@
             android:layout_width="160dp"
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text="Grooming Harian"
             android:textSize="14sp" />
 
@@ -279,61 +290,22 @@
             android:layout_width="160dp"
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text="Grooming Jamur"
             android:textSize="14sp" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:id="@+id/LL_3"
-        android:layout_width="wrap_content"
-        android:layout_height="25dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="50dp"
-        android:background="@drawable/bg_detail_perawatan"
-        android:orientation="horizontal"
-        android:paddingVertical="3dp"
-        app:layout_constraintStart_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/LL_2">
-
-        <TextView
-            android:id="@+id/tv_jumlah"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
-            android:text="Jumlah" />
-
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginStart="220dp"
-            android:src="@drawable/tanda_minus" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginHorizontal="5dp"
-            android:text="0" />
-
-        <ImageView
-            android:layout_width="20dp"
-            android:layout_height="20dp"
-            android:layout_marginEnd="10dp"
-            android:src="@drawable/tanda_plus" />
-
-    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/LL_4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="112dp"
         android:orientation="horizontal"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/LL_3">
+        app:layout_constraintTop_toBottomOf="@id/LL_2">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -362,7 +334,7 @@
             android:layout_height="40dp"
             android:layout_marginVertical="5dp"
             android:layout_marginStart="170dp"
-            android:background="@drawable/bg_detail_perawatan"
+            android:background="@drawable/btn_detail_perawatan"
             android:text="Bayar"
             android:textAllCaps="false" />
     </LinearLayout>
