@@ -19,6 +19,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="26.97dp"
+        android:layout_height="26.97dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
     <ImageView
         android:id="@+id/judullayhotel"
         android:layout_width="441dp"
@@ -133,27 +146,6 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView12"
         android:layout_marginTop="23dp"
         android:layout_marginStart="265dp"/>
-
-    <Button
-<<<<<<< HEAD
-        android:id="@+id/btn_booking_htl"
-        android:layout_width="420dp"
-=======
-        android:id="@+id/btn_booking_gk"
-        android:layout_width="match_parent"
->>>>>>> 6f3eaf1d979fc47ecbb597d99fb3603ac78ca5ef
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_booking"
-        android:fontFamily="@font/poppinsbold"
-        android:text="Booking"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/review"
-        app:layout_constraintVertical_bias="1.0" />
 
 
 
