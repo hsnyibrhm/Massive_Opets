@@ -5,63 +5,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pudar"
-    tools:context=".Penitipan.PenitipanActivity">
+    tools:context=".grooming_nutrition">
 
     <ImageView
-        android:id="@+id/iVlayananhotel"
-        android:layout_width="match_parent"
+        android:id="@+id/iVnutrition"
+        android:layout_width="500dp"
         android:layout_height="256dp"
-        android:scaleType="centerCrop"
         android:layout_marginTop="0dp"
-        android:src="@drawable/penitipan5"
+        android:src="@drawable/gro_nutrition"
+        android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/judullayhotel"
+        android:id="@+id/judul"
         android:layout_width="441dp"
         android:layout_height="51dp"
         android:layout_marginTop="256dp"
         android:background="@drawable/judul_layanan"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/poppinsbold"
-        android:text="Penitipan Hewan"
+        android:text="Grooming Nutrisi"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/judullayhotel"
-        app:layout_constraintTop_toBottomOf="@+id/iVlayananhotel" />
-
+        app:layout_constraintStart_toStartOf="@+id/judul"
+        app:layout_constraintTop_toBottomOf="@+id/iVnutrition" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/imageView10"
         android:layout_width="450dp"
         android:layout_height="280dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_booking_penitippan"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/judullayhotel" />
+        app:layout_constraintTop_toBottomOf="@+id/judul"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="39dp"
         android:fontFamily="@font/poppins_regular"
-        android:text="@string/detail_penitipan"
+        android:text="@string/detail_gronutrition"
         android:textSize="14sp"
-        app:layout_constraintStart_toStartOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/judullayhotel" />
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/judul" />
 
     <ImageView
         android:id="@+id/review"
@@ -72,7 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -85,7 +83,7 @@
         android:text="Penilaian layanan"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/review"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
 
     <ImageView
@@ -96,7 +94,7 @@
         android:layout_marginTop="54dp"
         android:background="@drawable/bintang"
         app:layout_constraintStart_toStartOf="@+id/review"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/jmlhbint"
@@ -109,33 +107,34 @@
         android:text="4.5/5"
         android:textSize="10sp"
         app:layout_constraintStart_toStartOf="@+id/bintang"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <TextView
         android:id="@+id/ulasan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="36dp"
         android:layout_marginTop="52dp"
+        android:layout_marginStart="16dp"
         android:backgroundTint="@color/htmpudar"
         android:fontFamily="@font/poppins_regular"
-        android:text="(102 Ulasan)"
+        android:text="(120 Ulasan"
         android:textSize="10sp"
-        app:layout_constraintStart_toStartOf="@+id/jmlhbint"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+        app:layout_constraintStart_toEndOf="@+id/jmlhbint"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <Button
         android:id="@+id/next"
         android:layout_width="42dp"
         android:layout_height="45dp"
-        android:background="@drawable/next"
-        app:layout_constraintStart_toStartOf="@+id/ulasan"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        android:layout_marginStart="265dp"
         android:layout_marginTop="23dp"
-        android:layout_marginStart="265dp"/>
+        android:background="@drawable/next"
+        app:layout_constraintEnd_toEndOf="@+id/review"
+        app:layout_constraintStart_toStartOf="@+id/ulasan"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <Button
-        android:id="@+id/btn_booking_htl"
+        android:id="@+id/btn_booking_gn"
         android:layout_width="420dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
@@ -149,7 +148,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/review"
         app:layout_constraintVertical_bias="1.0" />
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -58,15 +58,42 @@
         Mau pergi mudik atau liburan\nTapi anabul gaada yang rawat?\nYuk, Titipkan Anabul Kamu Di Opets \nDengan dilengkapi dengan fasilitas terbaik untuk menjaga kenyamanan dan keamanan hewan peliharaan Anda.\n Fasilitas ini mencakup kandang yang bersih dan nyaman. Selain itu, tempat penitipan hewan kami juga dilengkapi dengan AC dan ventilasi yang baik untuk memastikan lingkungan yang sehat dan nyaman bagi hewan peliharaan Anda. Beserta para staf yang berpengalaman dalam mengurus Kucing
     </string>
 
+    <string name="detail_groharian">
+        Grooming khusus untuk membersihkan kotoran pada tubuh kucing.\n Grooming daily menggunakan shampo Basic.  Semua paket Grooming menggunakan Air Hangat.\n Grooming Include :
+\n- Potong Kuku
+\n- Membersihkan Telinga
+\n- Trimming bulu Paw
+\n- Degreaser
+\n- Shampo khusus basic
+    </string>
+
     <string name="detail_grokutu">
         Grooming khusus untuk membunuh kutu-kutu pada kucing.\n Grooming kutu menggunakan shampo khusus kutu.  Semua paket Grooming menggunakan Air Hangat.\n Grooming Include :
 \n- Potong Kuku
 \n- Membersihkan Telinga
-\n- Trimming Paw
+\n- Trimming bulu Paw
 \n- Degreaser
 \n- Shampo khusus Kutu
     </string>
-    
+
+    <string name="detail_grojamur">
+        Grooming khusus untuk menghilangkan jamur\n pada kulit kucing. Grooming jamur menggunakan shampo khusus anti jamur.  Semua paket Grooming menggunakan Air Hangat.\n Grooming Include :
+\n- Potong Kuku
+\n- Membersihkan Telinga
+\n- Trimming bulu Paw
+\n- Degreaser
+\n- Shampo khusus Jamur
+    </string>
+
+    <string name="detail_gronutrition">
+        Grooming khusus untuk memperbaiki bulu kucing.\nGrooming nutrition menggunakan shampo khusus\nuntuk menutrisi bulu dan kulit kucing.  Semua paket Grooming menggunakan Air Hangat.\n Grooming Include :
+\n- Potong Kuku
+\n- Membersihkan Telinga
+\n- Trimming bulu Paw
+\n- Degreaser Premium
+\n- Shampo khusus untuk menutrisi dan melembabkan bulu kucing
+    </string>
+
     <string name="cara_bayar">
         Cara Pembayaran: \n
         \n1. Silahkan unduh kode QRIS.
