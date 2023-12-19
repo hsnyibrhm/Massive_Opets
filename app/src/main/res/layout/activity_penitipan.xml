@@ -8,7 +8,7 @@
     tools:context=".Penitipan.PenitipanActivity">
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/iVlayananhotel"
         android:layout_width="match_parent"
         android:layout_height="256dp"
         android:scaleType="centerCrop"
@@ -19,8 +19,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="26.97dp"
+        android:layout_height="26.97dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
     <ImageView
-        android:id="@+id/judul"
+        android:id="@+id/judullayhotel"
         android:layout_width="441dp"
         android:layout_height="51dp"
         android:layout_marginTop="256dp"
@@ -38,8 +51,8 @@
         android:fontFamily="@font/poppinsbold"
         android:text="Penitipan Hewan"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/judul"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+        app:layout_constraintStart_toStartOf="@+id/judullayhotel"
+        app:layout_constraintTop_toBottomOf="@+id/iVlayananhotel" />
 
 
     <ImageView
@@ -50,7 +63,7 @@
         android:background="@drawable/bg_booking_penitippan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/judul" />
+        app:layout_constraintTop_toBottomOf="@+id/judullayhotel" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -61,19 +74,17 @@
         android:text="@string/detail_penitipan"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/judul" />
+        app:layout_constraintTop_toBottomOf="@+id/judullayhotel" />
 
     <ImageView
         android:id="@+id/review"
         android:layout_width="410dp"
         android:layout_height="73dp"
-        android:layout_marginTop="613dp"
         android:background="@drawable/judul_layanan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <TextView
         android:id="@+id/rev_layanan"
@@ -125,7 +136,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
     <Button
-        android:id="@+id/next"
+        android:id="@+id/nextpntp"
         android:layout_width="42dp"
         android:layout_height="45dp"
         android:background="@drawable/next"
@@ -135,21 +146,20 @@
         android:layout_marginStart="265dp"/>
 
     <Button
-        android:id="@+id/btn_booking_gk"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
+        android:id="@+id/bk_cathotel"
+        android:layout_width="412dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
         android:background="@drawable/button_booking"
-        android:fontFamily="@font/poppinsbold"
         android:text="Booking"
+        android:layout_gravity="center"
         android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/review"
+        app:layout_constraintTop_toTopOf="@+id/review"
         app:layout_constraintVertical_bias="1.0" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

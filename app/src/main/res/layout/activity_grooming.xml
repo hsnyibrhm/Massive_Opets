@@ -126,7 +126,7 @@
         android:layout_height="105dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
-        android:src="@drawable/gro_jamur"
+        android:src="@drawable/gro_nutrition"
         app:layout_constraintStart_toStartOf="@+id/imageView5"
         app:layout_constraintTop_toTopOf="@+id/imageView5" />
 

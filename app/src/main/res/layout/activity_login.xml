@@ -126,13 +126,12 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
-            <Button
+            <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnLogin"
                 android:layout_width="303dp"
                 android:layout_height="58dp"
                 android:layout_marginTop="4dp"
                 android:background="@drawable/btn_theme_2"
-                android:backgroundTint="@color/oren"
                 android:fontFamily="@font/poppins_semibold"
                 android:text="Continue"
                 android:textAllCaps="false"

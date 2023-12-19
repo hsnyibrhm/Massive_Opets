@@ -5,14 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/pudar"
-    tools:context=".Groooming.GroomingKutuActivity">
+    tools:context=".grooming_jamur">
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="500dp"
         android:layout_height="256dp"
         android:layout_marginTop="0dp"
-        android:src="@drawable/kucing1"
+        android:src="@drawable/kucing4"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -46,7 +46,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppinsbold"
-        android:text="Grooming Kutu"
+        android:text="Grooming Jamur"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/judul"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
@@ -68,7 +68,8 @@
         android:layout_marginStart="12dp"
         android:layout_marginTop="39dp"
         android:fontFamily="@font/poppins_regular"
-        android:text="@string/detail_grokutu"
+        android:text="@string/detail_grojamur"
+
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/imageView10"
         app:layout_constraintTop_toBottomOf="@+id/judul" />
@@ -129,13 +130,13 @@
         android:layout_marginStart="16dp"
         android:backgroundTint="@color/htmpudar"
         android:fontFamily="@font/poppins_regular"
-        android:text="(120 Ulasan)"
+        android:text="(120 Ulasan"
         android:textSize="10sp"
         app:layout_constraintStart_toEndOf="@+id/jmlhbint"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <Button
-        android:id="@+id/nextkt"
+        android:id="@+id/next"
         android:layout_width="42dp"
         android:layout_height="45dp"
         android:layout_marginStart="265dp"
@@ -146,8 +147,8 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
     <Button
-        android:id="@+id/btn_booking_gk"
-        android:layout_width="match_parent"
+        android:id="@+id/btn_booking_gj"
+        android:layout_width="420dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_booking"
@@ -160,6 +161,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/review"
         app:layout_constraintVertical_bias="1.0" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
