@@ -124,7 +124,7 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/bg_detail_perawatan"
-            android:text="<2Kg" />
+            android:text="2Kg" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_brt2"
