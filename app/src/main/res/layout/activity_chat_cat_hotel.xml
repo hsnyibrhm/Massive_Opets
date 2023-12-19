@@ -22,7 +22,7 @@
         android:layout_width="47dp"
         android:layout_height="35dp"
         android:layout_marginTop="8dp"
-        android:src="@drawable/cus_ser"
+        android:src="@drawable/cat_hotel"
         app:layout_constraintStart_toEndOf="@+id/btnback"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -67,7 +67,7 @@
         android:layout_height="23dp"
         android:layout_marginTop="8dp"
         android:fontFamily="@font/poppins_regular"
-        android:text="Customer Service"
+        android:text="Cat Hotel"
         android:textColor="@color/black"
         android:textSize="12sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView13"
@@ -76,5 +76,144 @@
         app:layout_constraintStart_toEndOf="@+id/prof_cs"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/cht_1"
+        android:layout_width="282dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/glmbng_chat_knn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:padding="8dp"
+        android:text="Kak boleh foto kandangnya"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cht_1"
+        app:layout_constraintEnd_toEndOf="@+id/cht_1"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="@+id/cht_1"
+        app:layout_constraintTop_toTopOf="@+id/cht_1" />
+
+
+    <ImageView
+        android:id="@+id/cat_hotel_1"
+        android:layout_width="227dp"
+        android:layout_height="191dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/glmbng_chat_kiri_3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.228"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cht_1" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/kucing_mkn"
+        app:layout_constraintEnd_toEndOf="@+id/cat_hotel_1"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/cat_hotel_1"
+        app:layout_constraintTop_toTopOf="@+id/cat_hotel_1" />
+
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Kucing kakak lagi makan!"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cat_hotel_1"
+        app:layout_constraintTop_toBottomOf="@+id/imageView20"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="81dp" />
+
+    <ImageView
+        android:id="@+id/cht_2"
+        android:layout_width="276dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/glmbng_chat_knn_2"
+        app:layout_constraintEnd_toStartOf="@+id/img_cs_1"
+        app:layout_constraintTop_toBottomOf="@+id/cat_hotel_1" />
+
+    <TextView
+        android:layout_width="201dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Kak saya kan pesan tambahan paket Grooming kutu, kapan ya groomingnya"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cht_2"
+        app:layout_constraintEnd_toEndOf="@+id/cht_2"
+        app:layout_constraintHorizontal_bias="0.186"
+        app:layout_constraintStart_toStartOf="@+id/cht_2"
+        app:layout_constraintTop_toTopOf="@+id/cht_2"
+        app:layout_constraintVertical_bias="0.589" />
+
+    <ImageView
+        android:id="@+id/img_cs_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:src="@drawable/cat_chat"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="435dp" />
+
+    <ImageView
+        android:id="@+id/cat_hotel_2"
+        android:layout_width="183dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="184dp"
+        android:src="@drawable/glmbng_chat_kiri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/img_cs"
+        app:layout_constraintTop_toBottomOf="@+id/cht_2" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Jam 1 Siang kak"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/cat_hotel_2"
+        app:layout_constraintEnd_toEndOf="@+id/cat_hotel_2"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toStartOf="@+id/cat_hotel_2"
+        app:layout_constraintTop_toTopOf="@+id/cat_hotel_2" />
+
+    <ImageView
+        android:id="@+id/img_cs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:src="@drawable/cat_hotel"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="487dp" />
+
+    <TextView
+        android:layout_width="400dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="15dp"
+        android:hint="Type a message"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
