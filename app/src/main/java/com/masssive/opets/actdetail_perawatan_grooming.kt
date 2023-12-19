@@ -11,9 +11,5 @@ abstract class actdetail_perawatan_grooming : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_actdetail_perawatan_grooming)
 
-
-
         }
-
-
     }
