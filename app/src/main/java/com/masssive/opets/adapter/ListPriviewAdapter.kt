@@ -12,7 +12,7 @@ import com.masssive.opets.model.Preview
 class ListPriviewAdapter(private val listPreview: ArrayList<Preview>) : RecyclerView.Adapter<ListPriviewAdapter.ListViewHolder>(){
     class ListViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val img_pv: ImageView = itemView.findViewById(R.id.img_prev)
-        val tvKEt: TextView = itemView.findViewById(R.id.tv_tgl)
+        val tvKEt: TextView = itemView.findViewById(R.id.tv_ket)
 
     }
 

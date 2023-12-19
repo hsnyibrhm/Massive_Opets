@@ -13,11 +13,11 @@
         android:layout_height="42dp"
         android:background="#F39C12">
 
-        <ImageView
+        <Button
             android:layout_width="53dp"
             android:layout_height="match_parent"
             android:paddingTop="4dp"
-            android:src="@drawable/ic_back"/>
+            android:background="@drawable/back"/>
 
         <TextView
             android:layout_width="wrap_content"
@@ -26,6 +26,8 @@
             android:paddingTop="4dp"
             android:fontFamily="@font/poppinsbold"
             android:text="Profil"
+            android:textColor="@color/black"
+
             android:textSize="20sp"/>
 
     </FrameLayout>

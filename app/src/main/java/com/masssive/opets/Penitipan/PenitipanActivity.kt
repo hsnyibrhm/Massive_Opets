@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.masssive.opets.R
+import com.masssive.opets.ReviewCatHotelActivity
 import com.masssive.opets.databinding.ActivityPenitipanBinding
 
 class PenitipanActivity : AppCompatActivity() {
@@ -17,8 +18,13 @@ class PenitipanActivity : AppCompatActivity() {
     }
 
     private fun setupAction() {
-        binding.btnBookingGk.setOnClickListener{
+        binding.bkCathotel.setOnClickListener{
             val intent = Intent(this, BookingPenitipanActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.nextpntp.setOnClickListener {
+            val intent = Intent(this,ReviewCatHotelActivity::class.java)
             startActivity(intent)
         }
     }

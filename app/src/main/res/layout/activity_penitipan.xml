@@ -8,7 +8,7 @@
     tools:context=".Penitipan.PenitipanActivity">
 
     <ImageView
-        android:id="@+id/imageView11"
+        android:id="@+id/iVlayananhotel"
         android:layout_width="match_parent"
         android:layout_height="256dp"
         android:scaleType="centerCrop"
@@ -19,8 +19,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="26.97dp"
+        android:layout_height="26.97dp"
+        android:background="@drawable/ic_back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+
     <ImageView
-        android:id="@+id/judul"
+        android:id="@+id/judullayhotel"
         android:layout_width="441dp"
         android:layout_height="51dp"
         android:layout_marginTop="256dp"
@@ -38,48 +51,115 @@
         android:fontFamily="@font/poppinsbold"
         android:text="Penitipan Hewan"
         android:textSize="18sp"
-        app:layout_constraintStart_toStartOf="@+id/judul"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+        app:layout_constraintStart_toStartOf="@+id/judullayhotel"
+        app:layout_constraintTop_toBottomOf="@+id/iVlayananhotel" />
 
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="410dp"
-        android:layout_height="261dp"
+        android:layout_width="450dp"
+        android:layout_height="280dp"
         android:layout_marginTop="16dp"
         android:background="@drawable/bg_booking_penitippan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/judul" />
-
+        app:layout_constraintTop_toBottomOf="@+id/judullayhotel" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="12dp"
-        android:layout_marginTop="72dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
         android:fontFamily="@font/poppins_regular"
         android:text="@string/detail_penitipan"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="@+id/imageView12"
-        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
-    
-    <Button
-        android:id="@+id/btn_booking_gk"
-        android:layout_width="413dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/button_booking"
-        android:fontFamily="@font/poppinsbold"
-        android:text="Booking"
-        android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/judullayhotel" />
+
+    <ImageView
+        android:id="@+id/review"
+        android:layout_width="410dp"
+        android:layout_height="73dp"
+        android:background="@drawable/judul_layanan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
+    <TextView
+        android:id="@+id/rev_layanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Penilaian layanan"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/review"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+
+    <ImageView
+        android:id="@+id/bintang"
+        android:layout_width="44dp"
+        android:layout_height="10dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/bintang"
+        app:layout_constraintStart_toStartOf="@+id/review"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/jmlhbint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="52dp"
+        android:textColor="@color/jmlh_bintang"
+        android:fontFamily="@font/poppins_regular"
+        android:text="4.5/5"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/bintang"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <TextView
+        android:id="@+id/ulasan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="52dp"
+        android:backgroundTint="@color/htmpudar"
+        android:fontFamily="@font/poppins_regular"
+        android:text="(102 Ulasan)"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="@+id/jmlhbint"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12" />
+
+    <Button
+        android:id="@+id/nextpntp"
+        android:layout_width="42dp"
+        android:layout_height="45dp"
+        android:background="@drawable/next"
+        app:layout_constraintStart_toStartOf="@+id/ulasan"
+        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        android:layout_marginTop="23dp"
+        android:layout_marginStart="265dp"/>
+
+    <Button
+        android:id="@+id/bk_cathotel"
+        android:layout_width="412dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="56dp"
+        android:background="@drawable/button_booking"
+        android:text="Booking"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/review"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.masssive.opets.R
+import com.masssive.opets.ReviewGroomingActivity
 import com.masssive.opets.databinding.ActivityGroomingKutuBinding
 
 class GroomingKutuActivity : AppCompatActivity() {
@@ -19,6 +20,11 @@ class GroomingKutuActivity : AppCompatActivity() {
     private fun setupAction() {
         binding.btnBookingGk.setOnClickListener{
             val intent = Intent(this, BookingGromingKutuActivity::class.java)
+            startActivity(intent)
+        }
+
+        binding.nextkt.setOnClickListener{
+            val intent = Intent(this, ReviewGroomingActivity ::class.java)
             startActivity(intent)
         }
     }
