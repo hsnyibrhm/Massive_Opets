@@ -341,7 +341,7 @@
                 android:layout_marginStart="28dp"
                 android:fontFamily="@font/poppinsbold"
                 android:textColor="@color/black"
-                android:text="Rp. 90.000"
+                android:text="Rp. 50.000"
                 android:textStyle="bold" />
         </LinearLayout>
 
