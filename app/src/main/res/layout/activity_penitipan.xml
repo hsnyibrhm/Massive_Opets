@@ -19,11 +19,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnBack"
         android:layout_width="26.97dp"
         android:layout_height="26.97dp"
-        android:background="@drawable/ic_back"
+        android:background="@drawable/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.041"
@@ -135,7 +135,7 @@
         app:layout_constraintStart_toStartOf="@+id/jmlhbint"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/nextpntp"
         android:layout_width="42dp"
         android:layout_height="45dp"
@@ -145,7 +145,7 @@
         android:layout_marginTop="23dp"
         android:layout_marginStart="265dp"/>
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bk_cathotel"
         android:layout_width="412dp"
         android:layout_height="44dp"

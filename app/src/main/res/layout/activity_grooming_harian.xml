@@ -18,11 +18,11 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btnBack"
         android:layout_width="26.97dp"
         android:layout_height="26.97dp"
-        android:background="@drawable/ic_back"
+        android:background="@drawable/back"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.041"
@@ -134,7 +134,7 @@
         app:layout_constraintStart_toEndOf="@+id/jmlhbint"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/next"
         android:layout_width="42dp"
         android:layout_height="45dp"
@@ -145,7 +145,7 @@
         app:layout_constraintStart_toStartOf="@+id/ulasan"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_booking_gh"
         android:layout_width="410dp"
         android:layout_height="50dp"

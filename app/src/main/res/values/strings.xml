@@ -106,7 +106,7 @@
         \n8. Buka aplikasi OPETS, klik fitur booking untuk memastikan transaksi telah berhasil.
     </string>
 
-     <string name="ketmasukkode">Enter 4 digit verification code sent to your registered\nmobile number.</string>
+    <string name="ketmasukkode">Enter 4 digit verification code sent to your registered\nmobile number.</string>
 
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
