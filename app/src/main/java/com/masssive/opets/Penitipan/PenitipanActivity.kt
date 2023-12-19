@@ -17,7 +17,7 @@ class PenitipanActivity : AppCompatActivity() {
     }
 
     private fun setupAction() {
-        binding.btnBookingGk.setOnClickListener{
+        binding.bkCathotel.setOnClickListener{
             val intent = Intent(this, BookingPenitipanActivity::class.java)
             startActivity(intent)
         }
