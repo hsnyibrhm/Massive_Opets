@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/oren"
+    tools:context=".detail_perawatan_grooming">
+
+    <TextView
+        android:id="@+id/tv_detail_perawatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Detail Perawatan"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nama_pemilik"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Nama Pemilik"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_perawatan" />
+
+    <EditText
+        android:id="@+id/et_nama_pemilik"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+
+        android:background="@drawable/bg_detail_perawatan"
+        android:gravity=""
+        android:hint="  Masukkan Nama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_pemilik" />
+
+    <TextView
+        android:id="@+id/tv_nama_kucing"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Nama Kucing"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama_pemilik" />
+
+    <EditText
+        android:id="@+id/et_nama_kucing"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_detail_perawatan"
+        android:gravity=""
+        android:hint="  Masukkan Nama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_kucing" />
+
+    <TextView
+        android:id="@+id/tv_jenis_kucing"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Jenis Kucing"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/tv_nama_kucing"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama_pemilik" />
+
+    <EditText
+        android:id="@+id/et__kucing"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:background="@drawable/bg_detail_perawatan"
+        android:gravity=""
+        android:hint="      Jenis Kucing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toEndOf="@+id/et_nama_kucing"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jenis_kucing" />
+
+    <TextView
+        android:id="@+id/tv_berat_kucing"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Berat Kucing"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama_kucing" />
+
+
+    <ImageView
+        android:id="@+id/img_brt1"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/bg_detail_perawatan"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_berat_kucing" />
+
+    <TextView
+        android:id="@+id/tv_brt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="<2Kg"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_brt1"
+        app:layout_constraintEnd_toEndOf="@+id/img_brt1"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="@+id/img_brt1"
+        app:layout_constraintTop_toTopOf="@+id/img_brt1"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/img_brt2"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/bg_detail_perawatan"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/img_brt1"
+        app:layout_constraintTop_toBottomOf="@+id/tv_berat_kucing" />
+
+    <TextView
+        android:id="@+id/tv_brt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=">2Kg"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_brt2"
+        app:layout_constraintEnd_toEndOf="@+id/img_brt2"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="@+id/img_brt2"
+        app:layout_constraintTop_toTopOf="@+id/img_brt2"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageView
+        android:id="@+id/img_brt3"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/bg_detail_perawatan"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/img_brt2"
+        app:layout_constraintTop_toBottomOf="@+id/tv_berat_kucing" />
+
+    <TextView
+        android:id="@+id/tv_brt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="≥5Kg"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_brt3"
+        app:layout_constraintEnd_toEndOf="@+id/img_brt3"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="@+id/img_brt3"
+        app:layout_constraintTop_toTopOf="@+id/img_brt3"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <TextView
+        android:id="@+id/tv_durasi_penitipan"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Durasi Penitipan"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_brt1" />
+
+    <ImageView
+        android:id="@+id/img_star_date"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/bg_detail_perawatan"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_durasi_penitipan" />
+
+    <ImageView
+        android:id="@+id/ic_kalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/icon_kalender"
+        app:layout_constraintStart_toStartOf="@+id/img_star_date"
+        app:layout_constraintTop_toTopOf="@id/img_star_date" />
+    <TextView
+        android:id="@+id/tv_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="4dp"
+        android:textSize="14sp"
+        android:text="12 - Desember - 2023"
+        app:layout_constraintStart_toEndOf="@id/ic_kalender"
+        app:layout_constraintTop_toTopOf="@id/img_star_date"/>
+
+    <ImageView
+        android:id="@+id/img_end_date"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/bg_detail_perawatan"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@id/img_star_date"
+        app:layout_constraintTop_toBottomOf="@+id/tv_durasi_penitipan" />
+
+    <ImageView
+        android:id="@+id/ic_kalender2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/icon_kalender"
+        app:layout_constraintStart_toStartOf="@+id/img_end_date"
+        app:layout_constraintTop_toTopOf="@id/img_end_date" />
+    <TextView
+        android:id="@+id/tv_end_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:layout_marginStart="4dp"
+        android:textSize="14sp"
+        android:text="13 - Desember - 2023"
+        app:layout_constraintStart_toEndOf="@id/ic_kalender2"
+        app:layout_constraintTop_toTopOf="@id/img_end_date"/>
+
+    <TextView
+        android:id="@+id/tv_tambahan"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Tambahan"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_star_date" />
+
+    <ImageView
+        android:id="@+id/img_tambahan"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="28dp"
+        android:src="@drawable/bg_detail_perawatan"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_tambahan" />
+
+    <TextView
+        android:id="@+id/tv_tmbhn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Grooming Nutrion"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/img_tambahan"
+        app:layout_constraintEnd_toEndOf="@+id/img_tambahan"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="@+id/img_tambahan"
+        app:layout_constraintTop_toTopOf="@+id/img_tambahan"
+        app:layout_constraintVertical_bias="0.5" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
