@@ -135,8 +135,13 @@
         android:layout_marginStart="265dp"/>
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/btn_booking_htl"
         android:layout_width="420dp"
+=======
+        android:id="@+id/btn_booking_gk"
+        android:layout_width="match_parent"
+>>>>>>> 6f3eaf1d979fc47ecbb597d99fb3603ac78ca5ef
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/button_booking"
