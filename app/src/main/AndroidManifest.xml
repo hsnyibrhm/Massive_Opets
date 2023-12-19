@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
         <activity
+            android:name=".actdetail_perawatan_grooming"
+            android:exported="false" />
+        <activity
+            android:name=".detail_perawatan_grooming"
+            android:exported="false" />
+        <activity
             android:name=".grooming_nutrition"
             android:exported="false" />
         <activity

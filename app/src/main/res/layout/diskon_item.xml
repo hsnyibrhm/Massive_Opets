@@ -14,6 +14,7 @@
     app:strokeWidth="0dp"
     app:strokeColor="#E0E0E0"
     android:layout_width="250dp"
+    app:cardElevation="2dp"
     android:layout_height="129dp"
     android:contentDescription="foto diskon">
 
@@ -29,6 +30,7 @@
            android:layout_height="129dp"
            android:layout_marginStart="0dp"
            android:backgroundTint="@color/white"
+           app:cardElevation="2dp"
            app:cardCornerRadius="16dp"
            app:layout_constraintStart_toStartOf="parent"
            app:layout_constraintTop_toTopOf="parent"
@@ -38,7 +40,7 @@
 
            <ImageView
                android:id="@+id/img_dis"
-               android:layout_width="250dp"
+               android:layout_width="252dp"
                android:layout_height="wrap_content"
                android:scaleType="centerCrop"
                tools:srcCompat="@tools:sample/avatars" />
