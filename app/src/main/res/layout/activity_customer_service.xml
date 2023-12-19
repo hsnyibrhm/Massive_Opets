@@ -184,21 +184,22 @@
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="299dp"
-        android:layout_height="85dp"
-        android:layout_marginTop="32dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="40dp"
         android:src="@drawable/glmbng_chat_kiri_3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.392"
+        app:layout_constraintHorizontal_bias="0.366"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView26" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="356dp"
         android:src="@drawable/foto_kndng"
-        app:layout_constraintEnd_toEndOf="@+id/imageView27"
-        app:layout_constraintStart_toStartOf="@+id/imageView27"
-        tools:layout_editor_absoluteY="348dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:layout_width="402dp"
