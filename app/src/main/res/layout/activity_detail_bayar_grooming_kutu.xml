@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/oren"
+    tools:context=".detail_bayar_grooming_kutu">
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnBack"
+        android:layout_width="26.97dp"
+        android:layout_height="26.97dp"
+        android:background="@drawable/back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.041"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/tv_detail_perawatan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Detail Perawatan"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_nama_pemilik"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Nama Pemilik"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_detail_perawatan" />
+
+    <EditText
+        android:id="@+id/et_nama_pemilik"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_detail_perawatan"
+        android:gravity=""
+        android:hint="  Masukkan Nama"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_pemilik" />
+
+    <TextView
+        android:id="@+id/tv_nama_kucing"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:text="Nama Kucing"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama_pemilik" />
+
+    <EditText
+        android:id="@+id/et_nama_kucing"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_detail_perawatan"
+        android:hint="  Nama Kucing"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/tv_nama_kucing"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <TextView
+        android:id="@+id/tv_jenis_kucing"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Jenis Kucing"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toEndOf="@+id/tv_nama_kucing"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama_pemilik" />
+
+    <EditText
+        android:id="@+id/et__kucing"
+        android:layout_width="155dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_detail_perawatan"
+        android:hint="      Jenis Kucing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.386"
+        app:layout_constraintStart_toEndOf="@+id/et_nama_kucing"
+        app:layout_constraintTop_toBottomOf="@+id/tv_jenis_kucing" />
+
+    <TextView
+        android:id="@+id/tv_berat_kucing"
+        android:layout_width="140dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/black"
+        android:text="Berat Kucing"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_nama_kucing" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/tv_durasi_penitipan"
+        app:layout_constraintTop_toBottomOf="@+id/tv_berat_kucing"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_brt1"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="2Kg" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_brt2"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text=">2Kg" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_brt3"
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="≥5Kg" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_durasi_penitipan"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Tanggal Grooming"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="313dp" />
+
+    <ImageView
+        android:id="@+id/img_star_date"
+        android:layout_width="170dp"
+        android:layout_height="30dp"
+        android:src="@drawable/btn_detail_perawatan"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_durasi_penitipan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <ImageView
+        android:id="@+id/ic_kalender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/icon_kalender"
+        app:layout_constraintTop_toBottomOf="@+id/tv_durasi_penitipan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <TextView
+        android:id="@+id/tv_start_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="12 - Desember - 2023"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_durasi_penitipan"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="54dp"
+        tools:layout_editor_absoluteY="402dp" />
+
+
+    <TextView
+        android:id="@+id/tv_tambahan"
+        android:layout_width="190dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Waktu Grooming"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/img_star_date"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="28dp" />
+
+    <LinearLayout
+        android:id="@+id/LL_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_tambahan">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt1"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="9 AM" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt2"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="10 AM" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt3"
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="11 AM" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt4"
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="12 AM" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LL_1">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt5"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="28dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="01 PM" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt6"
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="02 PM" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt7"
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="03 PM" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_wkt8"
+
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="04 PM" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/LL_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="112dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LL_2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/black"
+                android:text="Total bayar"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="28dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/black"
+                android:text="Rp. 90.000"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginVertical="5dp"
+            android:layout_marginStart="170dp"
+            android:background="@drawable/btn_detail_perawatan"
+            android:text="Bayar"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
