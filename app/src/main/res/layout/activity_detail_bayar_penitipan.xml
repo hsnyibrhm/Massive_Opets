@@ -52,6 +52,7 @@
         android:layout_width="155dp"
         android:layout_height="40dp"
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:background="@drawable/btn_detail_perawatan"
         android:gravity="center"
         android:hint="Masukkan Nama"
@@ -79,6 +80,7 @@
         android:layout_width="155dp"
         android:layout_height="40dp"
         android:layout_marginTop="4dp"
+        android:textColor="@color/black"
         android:background="@drawable/btn_detail_perawatan"
         android:hint="Nama Kucing"
         android:gravity="center"
@@ -109,6 +111,7 @@
         android:layout_height="40dp"
         android:layout_marginTop="4dp"
         android:gravity="center"
+        android:textColor="@color/black"
         android:background="@drawable/btn_detail_perawatan"
         android:hint="Jenis Kucing"
         android:textAlignment="center"
@@ -148,7 +151,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="2Kg" />
+            android:text="2Kg"
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_brt2"
@@ -156,7 +160,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text=">2Kg" />
+            android:text=">2Kg"
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_brt3"
@@ -165,7 +170,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="≥5Kg" />
+            android:text="≥5Kg"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -215,7 +221,8 @@
         android:id="@+id/tv_start_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12 - Desember - 2023"
+        android:text="12-Desember-2023"
+        android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/img_star_date"
         app:layout_constraintEnd_toEndOf="@+id/img_star_date"
@@ -252,7 +259,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginTop="4dp"
-        android:text="13 - Desember - 2023"
+        android:text="13-Desember-2023"
+        android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintStart_toEndOf="@id/ic_kalender2"
         app:layout_constraintTop_toTopOf="@id/img_end_date" />
@@ -283,20 +291,22 @@
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_fitur1"
-            android:layout_width="160dp"
+            android:layout_width="180dp"
             android:layout_height="30dp"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="20dp"
             android:background="@drawable/btn_detail_perawatan"
             android:text="Grooming Nutrition"
+            android:textColor="@color/black"
             android:textSize="14sp" />
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_fitur2"
             android:layout_width="160dp"
             android:layout_height="30dp"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="20dp"
             android:background="@drawable/btn_detail_perawatan"
             android:text="Grooming Kutu"
+            android:textColor="@color/black"
             android:textSize="14sp" />
     </LinearLayout>
 
@@ -311,20 +321,22 @@
         app:layout_constraintStart_toEndOf="parent">
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_fitur3"
-            android:layout_width="160dp"
+            android:layout_width="180dp"
             android:layout_height="30dp"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="20dp"
             android:background="@drawable/btn_detail_perawatan"
             android:textSize="14sp"
-            android:text="Grooming Harian" />
+            android:text="Grooming Harian"
+            android:textColor="@color/black"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_fitur4"
             android:layout_width="160dp"
             android:layout_height="30dp"
-            android:layout_marginStart="28dp"
+            android:layout_marginStart="20dp"
             android:background="@drawable/btn_detail_perawatan"
             android:textSize="14sp"
-            android:text="Grooming Jamur" />
+            android:text="Grooming Jamur"
+            android:textColor="@color/black"/>
     </LinearLayout>
     <LinearLayout
         android:id="@+id/LL_4"
@@ -368,6 +380,7 @@
             android:layout_marginStart="170dp"
             android:background="@drawable/btn_detail_perawatan"
             android:text="Bayar"
+            android:textColor="@color/black"
             android:textAllCaps="false" />
     </LinearLayout>
 
