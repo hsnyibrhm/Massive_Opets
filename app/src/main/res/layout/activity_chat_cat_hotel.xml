@@ -166,11 +166,7 @@
         android:id="@+id/img_cs_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
         android:layout_marginTop="68dp"
-=======
-        android:layout_marginTop="20dp"
->>>>>>> a5d55a77d2f3e4923fff229f721cf7cdceb9b381
         android:layout_marginEnd="10dp"
         android:src="@drawable/cat_chat"
         app:layout_constraintEnd_toEndOf="parent"

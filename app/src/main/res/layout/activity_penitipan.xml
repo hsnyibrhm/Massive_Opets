@@ -72,6 +72,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="32dp"
+        android:textColor="@color/black"
         android:fontFamily="@font/poppins_regular"
         android:text="@string/detail_penitipan"
         android:textSize="14sp"
