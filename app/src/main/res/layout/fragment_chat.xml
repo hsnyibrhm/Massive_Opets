@@ -19,7 +19,47 @@
         android:fontFamily="@font/poppinsbold"
         android:text="Message"
         android:textSize="20dp" />
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="55dp">
 
+        <ImageView
+            android:id="@+id/prochthot"
+            android:layout_width="47dp"
+            android:layout_height="35dp"
+            android:src="@drawable/cat_hotel" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Cat Hotel"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="350dp"
+            android:text="10:53"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/done_all"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="50dp"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/add_photo_alternate"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="70dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Photo"
+            android:layout_marginTop="23dp"
+            android:layout_marginLeft="87dp"/>
+    </FrameLayout>
 
 
 </FrameLayout>

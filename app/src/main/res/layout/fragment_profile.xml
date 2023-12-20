@@ -13,7 +13,7 @@
         android:layout_height="42dp"
         android:background="#F39C12">
 
-        <androidx.appcompat.widget.AppCompatButton
+        <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:background="@drawable/back"
