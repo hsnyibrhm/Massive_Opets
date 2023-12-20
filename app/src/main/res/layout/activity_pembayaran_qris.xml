@@ -7,7 +7,7 @@
     android:background="@color/pudar"
     tools:context=".PembayaranQrisActivity">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/bckqris"
         android:layout_width="30dp"
         android:layout_height="30dp"
@@ -43,7 +43,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.097" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/ic_donlod"
         android:layout_width="30dp"
         android:layout_height="30dp"
