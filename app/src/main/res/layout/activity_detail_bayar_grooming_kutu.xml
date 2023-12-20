@@ -151,7 +151,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="2Kg" />
+            android:text="2Kg"
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_brt2"
@@ -159,7 +160,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text=">2Kg" />
+            android:text=">2Kg"
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_brt3"
@@ -168,7 +170,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="≥5Kg" />
+            android:text="≥5Kg"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 
@@ -216,6 +219,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="12 - Desember - 2023"
+        android:textColor="@color/black"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="@+id/img_star_date"
         app:layout_constraintEnd_toEndOf="@+id/img_star_date"
@@ -255,7 +259,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="9 AM" />
+            android:text="9 AM"
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_wkt2"
@@ -272,7 +277,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="11 AM" />
+            android:text="11 AM"
+            android:textColor="@color/black"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_wkt4"
 
@@ -280,7 +286,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="12 AM" />
+            android:text="12 AM"
+            android:textColor="@color/black"/>
     </LinearLayout>
 
     <LinearLayout
@@ -299,7 +306,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="28dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="01 PM" />
+            android:text="01 PM"
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_wkt6"
@@ -307,7 +315,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="02 PM" />
+            android:text="02 PM"
+            android:textColor="@color/black"/>
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_wkt7"
@@ -316,7 +325,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="03 PM" />
+            android:text="03 PM"
+            android:textColor="@color/black"/>
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btn_wkt8"
 
@@ -324,7 +334,8 @@
             android:layout_height="30dp"
             android:layout_marginStart="10dp"
             android:background="@drawable/btn_detail_perawatan"
-            android:text="04 PM" />
+            android:text="04 PM"
+            android:textColor="@color/black"/>
 
     </LinearLayout>
 

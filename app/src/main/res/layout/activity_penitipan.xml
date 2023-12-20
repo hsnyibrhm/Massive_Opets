@@ -50,6 +50,7 @@
         android:layout_marginTop="10dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Penitipan Hewan"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/judullayhotel"
         app:layout_constraintTop_toBottomOf="@+id/iVlayananhotel" />
@@ -63,6 +64,7 @@
         android:background="@drawable/bg_booking_penitippan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        android:textColor="@color/black"
         app:layout_constraintTop_toBottomOf="@+id/judullayhotel" />
 
     <TextView
@@ -94,6 +96,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Penilaian layanan"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/review"
         app:layout_constraintTop_toBottomOf="@+id/imageView12" />

@@ -200,7 +200,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:layout_width="303dp"
         android:layout_height="58dp"
         android:background="@drawable/btn_theme_2"

@@ -166,13 +166,13 @@
         android:id="@+id/img_cs_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
         android:layout_marginEnd="10dp"
         android:src="@drawable/cat_chat"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.97"
         app:layout_constraintStart_toStartOf="@+id/cht_2"
-        pp:layout_constraintTop_toTopOf="@+id/cht_2"
-        tools:layout_editor_absoluteY="435dp" />
+        app:layout_constraintTop_toTopOf="@+id/cht_2" />
 
     <ImageView
         android:id="@+id/cat_hotel_2"

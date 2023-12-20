@@ -47,6 +47,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Grooming Jamur"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/judul"
         app:layout_constraintTop_toBottomOf="@+id/imageView9" />
@@ -67,6 +68,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="39dp"
+        android:textColor="@color/black"
         android:fontFamily="@font/poppins_regular"
         android:text="@string/detail_grojamur"
 
@@ -95,6 +97,7 @@
         android:fontFamily="@font/poppinsbold"
         android:text="Penilaian layanan"
         android:textSize="18sp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/review"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 

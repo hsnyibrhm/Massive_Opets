@@ -47,6 +47,7 @@
         android:layout_marginTop="12dp"
         android:fontFamily="@font/poppinsbold"
         android:text="Grooming Nutrisi"
+        android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="@+id/judul"
         app:layout_constraintTop_toBottomOf="@+id/iVnutrition" />
@@ -56,6 +57,7 @@
         android:layout_width="450dp"
         android:layout_height="280dp"
         android:layout_marginTop="16dp"
+        android:textColor="@color/black"
         android:background="@drawable/bg_booking_penitippan"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -94,6 +96,7 @@
         android:fontFamily="@font/poppinsbold"
         android:text="Penilaian layanan"
         android:textSize="18sp"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="@+id/review"
         app:layout_constraintTop_toBottomOf="@+id/imageView10" />
 

@@ -20,6 +20,7 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/poppinsbold"
         android:text="Grooming"
+        android:textColor="@color/black"
         android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
@@ -73,6 +74,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="28dp"
+                    android:textColor="@color/black"
                     android:fontFamily="@font/poppinsbold"
                     android:text="Grooming Harian" />
 
@@ -81,6 +83,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="60dp"
+                    android:textColor="@color/black"
                     android:text="Dengan shampo khusus untuk menghilangkan kutu pada kucing" />
 
             </FrameLayout>
@@ -109,13 +112,15 @@
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="28dp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="Grooming Kutu"/>
+                    android:text="Grooming Kutu"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="135dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="60dp"
+                    android:textColor="@color/black"
                     android:text="Dengan shampo khusus untuk menghilangkan kutu pada kucing" />
 
             </FrameLayout>
@@ -144,13 +149,15 @@
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="28dp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="Grooming Jamur" />
+                    android:text="Grooming Jamur"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="135dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="60dp"
+                    android:textColor="@color/black"
                     android:text="Dengan shampo khusus untuk menghilangkan jamur pada  kucing"/>
             </FrameLayout>
 
@@ -180,13 +187,15 @@
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="28dp"
                     android:fontFamily="@font/poppinsbold"
-                    android:text="Grooming Nutrition"/>
+                    android:text="Grooming Nutrition"
+                    android:textColor="@color/black"/>
 
                 <TextView
                     android:layout_width="135dp"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="200dp"
                     android:layout_marginTop="60dp"
+                    android:textColor="@color/black"
                     android:text="Dengan shampo khusus  untuk menutrisi bulu kucing" />
 
             </FrameLayout>

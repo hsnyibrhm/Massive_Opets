@@ -13,11 +13,11 @@
         android:layout_height="42dp"
         android:background="#F39C12">
 
-        <Button
-            android:layout_width="53dp"
-            android:layout_height="match_parent"
-            android:paddingTop="4dp"
-            android:background="@drawable/back"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/back"
+            android:paddingTop="4dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -87,6 +87,7 @@
             android:layout_marginTop="4dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Profil kamu"
+            android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintStart_toEndOf="@+id/ic_profil"
             app:layout_constraintTop_toTopOf="parent" />
@@ -130,6 +131,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Kebijakan privasi"
+            android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/ic_keb_priv"
@@ -173,6 +175,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Tentang kami"
+            android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/ic_tentang"
@@ -217,6 +220,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Ketentuan pengguna"
+            android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/ic_ket_peng"
@@ -261,6 +265,7 @@
             android:layout_marginStart="16dp"
             android:fontFamily="@font/poppinsmedium"
             android:text="Logout"
+            android:textColor="@color/black"
             android:textSize="16sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/ic_logout"
