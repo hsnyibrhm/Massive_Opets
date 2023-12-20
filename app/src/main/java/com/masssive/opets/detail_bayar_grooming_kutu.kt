@@ -1,5 +1,6 @@
 package com.masssive.opets
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -8,6 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
 import androidx.core.content.ContextCompat
+import com.masssive.opets.Groooming.BookingGromingKutuActivity
 import com.masssive.opets.Groooming.GroomingKutuActivity
 import com.masssive.opets.Penitipan.PenitipanActivity
 
@@ -25,7 +27,9 @@ class detail_bayar_grooming_kutu : AppCompatActivity(), View.OnClickListener {
     private var isButtonLinkClicked = false
     // Variabel xml khusus untuk interest
     private lateinit var btnBack: Button
+    private lateinit var byrkutu: Button
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_bayar_grooming_kutu)
@@ -43,10 +47,14 @@ class detail_bayar_grooming_kutu : AppCompatActivity(), View.OnClickListener {
 
         // Inisialisasi Xml
         btnBack = findViewById(R.id.btnBack)
+        byrkutu = findViewById(R.id.byr_kutu)
 
         // tombol kembali(penitipan)
         val backPenitipanActivity: TextView = findViewById(R.id.btnBack)
         backPenitipanActivity.setOnClickListener(this)
+
+        val kebayar: Button = findViewById(R.id.byr_kutu)
+        kebayar.setOnClickListener(this)
 
         // Tombol kembali perangkat Penitipan
         val onBackPressedCallback = object : OnBackPressedCallback(true) {
@@ -83,6 +91,11 @@ class detail_bayar_grooming_kutu : AppCompatActivity(), View.OnClickListener {
                     btnBack.setBackgroundResource(R.drawable.back)
                     isButtonLinkClicked = true
                 }
+                startActivity(intent)
+            }
+
+            R.id.byr_kutu->{
+                val intent = Intent(this, PembayaranQrisActivity::class.java)
                 startActivity(intent)
             }
         }

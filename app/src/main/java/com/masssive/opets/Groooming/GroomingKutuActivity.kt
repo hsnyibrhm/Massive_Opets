@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.masssive.opets.R
 import com.masssive.opets.ReviewGroomingActivity
 import com.masssive.opets.databinding.ActivityGroomingKutuBinding
+import com.masssive.opets.detail_bayar_grooming_kutu
 
 class GroomingKutuActivity : AppCompatActivity() {
     private lateinit var binding: ActivityGroomingKutuBinding
@@ -19,7 +20,7 @@ class GroomingKutuActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.btnBookingGk.setOnClickListener{
-            val intent = Intent(this, BookingGromingKutuActivity::class.java)
+            val intent = Intent(this, detail_bayar_grooming_kutu::class.java)
             startActivity(intent)
         }
 

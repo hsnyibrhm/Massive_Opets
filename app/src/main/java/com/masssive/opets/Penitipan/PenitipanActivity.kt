@@ -6,6 +6,7 @@ import android.os.Bundle
 import com.masssive.opets.R
 import com.masssive.opets.ReviewCatHotelActivity
 import com.masssive.opets.databinding.ActivityPenitipanBinding
+import com.masssive.opets.detail_bayar_penitipan
 
 class PenitipanActivity : AppCompatActivity() {
     private lateinit var binding: ActivityPenitipanBinding
@@ -19,7 +20,7 @@ class PenitipanActivity : AppCompatActivity() {
 
     private fun setupAction() {
         binding.bkCathotel.setOnClickListener{
-            val intent = Intent(this, BookingPenitipanActivity::class.java)
+            val intent = Intent(this, detail_bayar_penitipan::class.java)
             startActivity(intent)
         }
 

@@ -15,6 +15,9 @@
         android:theme="@style/Theme.Opets"
         tools:targetApi="31">
         <activity
+            android:name=".Groooming.BookingGromingKutuActivity"
+            android:exported="false"/>
+        <activity
             android:name=".detail_bayar_grooming_kutu"
             android:exported="false" />
         <activity

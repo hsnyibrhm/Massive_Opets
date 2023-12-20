@@ -1,5 +1,6 @@
 package com.masssive.opets
 
+import android.annotation.SuppressLint
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -23,7 +24,9 @@ class detail_bayar_penitipan : AppCompatActivity(), View.OnClickListener {
     private var isButtonLinkClicked = false
     // Variabel xml khusus untuk interest
     private lateinit var btnBack: Button
+    private lateinit var btnbayar: Button
 
+    @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_detail_bayar_penitipan)
@@ -41,11 +44,14 @@ class detail_bayar_penitipan : AppCompatActivity(), View.OnClickListener {
 
         // Inisialisasi Xml
         btnBack = findViewById(R.id.btnBack)
+        btnbayar = findViewById(R.id.btnbayarpen)
 
         // tombol kembali(penitipan)
         val backPenitipanActivity: TextView = findViewById(R.id.btnBack)
         backPenitipanActivity.setOnClickListener(this)
 
+        val bayarpenitipan: Button = findViewById(R.id.btnbayarpen)
+        bayarpenitipan.setOnClickListener(this)
         // Tombol kembali perangkat Penitipan
         val onBackPressedCallback = object : OnBackPressedCallback(true) {
             override fun handleOnBackPressed() {
@@ -81,6 +87,10 @@ class detail_bayar_penitipan : AppCompatActivity(), View.OnClickListener {
                     btnBack.setBackgroundResource(R.drawable.back)
                     isButtonLinkClicked = true
                 }
+                startActivity(intent)
+            }
+            R.id.btnbayarpen ->{
+                val intent = Intent(this, PembayaranQrisActivity::class.java)
                 startActivity(intent)
             }
         }

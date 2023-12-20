@@ -8,6 +8,7 @@
     tools:context=".PembayaranQrisActivity">
 
     <Button
+        android:id="@+id/bckqris"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginTop="30dp"
