@@ -1,4 +1,4 @@
-﻿# Opet
+﻿# Opets
 This is the application of Opet, which was created to fulfill the task of the infinite learning Massive challenge which consists of
 
 | Team Name                  |  Path        | Github                                                          |
